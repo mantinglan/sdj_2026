@@ -114,7 +114,7 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-04`,
     time: "13:20",
     title: "🏔️ 山寺立石寺參拜",
-    note: "⚠️ 必備冰爪！樓梯非常滑。\n來回約 1.5 ~ 2 小時。",
+    note: "必爬 1015 階梯看展望台！\n攻略 1：https://travistotravel.com/2025/01/09/%E5%B1%B1%E5%BD%A2%E8%87%AA%E7%94%B1%E8%A1%8C%E5%B1%B1%E5%AF%BA%E7%AB%8B%E7%9F%B3%E5%AF%BA/\n攻略 2：https://tohoku.letsgojp.com/archives/21103/\n攻略 3：https://listentolu.com/2025/03/yamadera/",
     details:
       "【寶珠山 立石寺】\n由慈覺大師於西元 860 年開山，是東北代表性的靈場。詩人松尾芭蕉曾在此留下名句：「閑さや 岩にしみ入る 蝉の声」（寂靜啊，蟬聲滲入岩石中）。\n\n⚠️ 冬季登山警告：\n1. 絕對防滑：這 1015 階石梯在冬天會結成「冰溜滑梯」，非常滑！強烈建議在山下商店購買或自備「簡易冰爪 (雪抓)」，套在鞋子上再上山。\n2. 下山更危險：上山容易下山難，重心要放低，手抓扶手。\n3. 景色：雖然辛苦，但爬到「五大堂」看出去的雪景，彷彿水墨畫般美麗，非常值得！",
     lat: 38.3126,
@@ -124,9 +124,9 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-04`,
     time: "15:30",
     title: "腰掛庵",
-    note: "百名店甜點：蕎麥糰子\n地圖：https://www.google.com/maps/search/?api=1&query=Koshikakean+Yamagata",
+    note: "招牌：蕨餅、草莓大福、蕎麥糰子\n地圖：https://www.google.com/maps/search/?api=1&query=Koshikakean+Yamagata",
     details:
-      "這是一間非常有名的日式甜點店，招牌是「わらび餅 (蕨餅)」和「蕎麥糰子」。蕨餅口感超級軟嫩，入口即化，是很多人心中的第一名。",
+      "【腰掛庵 (Koshikakean)】\n山形縣極具代表性的和菓子名店，經常入選 Tabelog 甜點百名店。店面位於一座古色古香的明治時代「藏」建築（倉庫）內。\n\n🍡 推薦商品：\n1. 蕨餅 (わらび餅)：店內人氣 No.1！口感極其軟嫩綿密，甚至有「入口即化」的驚人美譽，裹上香氣濃郁的黃豆粉，是必買清單。\n2. 草莓大福 (季節限定)：冬季與春季限定！與一般大福不同，腰掛庵是用招牌蕨餅皮包覆大顆多汁草莓與細緻紅豆沙，蕨餅的Q彈與草莓的酸甜完美結合，非常受歡迎。\n3. 蕎麥糰子：帶有淡雅蕎麥香氣的糰子，搭配甜而不膩的紅豆餡或沾醬，口感Q彈扎實。\n⚠️ 注意：由於人氣極高，商品（尤其是草莓大福）常在傍晚前就售罄。",
   },
   {
     date: `${TRIP_YEAR}-02-04`,
