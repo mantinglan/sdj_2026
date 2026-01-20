@@ -5,6 +5,7 @@ import {
   CheckSquare,
   DollarSign,
   LogOut,
+  Ticket,
   AlertTriangle,
 } from "lucide-react";
 import { useAuth } from "../context/AuthContext";
@@ -56,6 +57,11 @@ const Layout = () => {
         <NavLink to="/expenses" className={navClass}>
           <DollarSign size={22} className="mb-1" />
           <span>記帳</span>
+        </NavLink>
+
+        <NavLink to="/coupons" className={navClass}>
+          <Ticket size={22} className="mb-1" />
+          <span>優惠券</span>
         </NavLink>
 
         {/* 🟢 修改：點擊觸發 Modal，而不是直接登出 */}

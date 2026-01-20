@@ -6,6 +6,7 @@ import Layout from "./components/Layout";
 import Itinerary from "./components/Itinerary";
 import TodoList from "./components/TodoList";
 import Expenses from "./components/Expenses";
+import Coupons from "./components/Coupons";
 
 const ProtectedRoute = ({ children }) => {
   const { user, loading } = useAuth();
@@ -30,6 +31,7 @@ function App() {
         <Route index element={<Itinerary />} />
         <Route path="todos" element={<TodoList />} />
         <Route path="expenses" element={<Expenses />} />
+        <Route path="coupons" element={<Coupons />} />
       </Route>
     </Routes>
   );

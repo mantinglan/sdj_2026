@@ -15,18 +15,12 @@ export const initialItineraryData = [
   {
     date: `${TRIP_YEAR}-02-03`,
     time: "15:00",
-    title: "草莓園吃到飽 (三選一)",
-    note: "需確認營業時間。\n1. 山元いちご農園 (至16:00)\n2. イチゴ農園ラ・フレーズ (至15:00)\n3. KeroKero之杜",
+    title: "AEON Mall 名取店 (第一組)",
+    note: "第一組先行開逛 / 超市補給\n地圖：https://maps.app.goo.gl/3q8YwXvP8Xp8Xp8Xp",
     details:
-      "仙台的草莓（如「再來一個」品種）非常有名！這裡的草莓園通常提供 30 分鐘吃到飽，並附有煉乳。請注意溫室內可能比較溫暖，建議穿著方便穿脫的外套。",
-    lat: 37.9622,
-    lng: 140.8837,
-  },
-  {
-    date: `${TRIP_YEAR}-02-03`,
-    time: "15:50",
-    title: "咖啡廳／伴手禮小逛",
-    note: "在附近休息等待第二組",
+      "AEON Mall 名取店是仙台機場附近最大的購物中心，擁有非常大型的超市與各式品牌。第一組可以在此購買往後幾天需要的零食、飲料或保暖衣物。",
+    lat: 38.1636,
+    lng: 140.893,
   },
   {
     date: `${TRIP_YEAR}-02-03`,
@@ -84,7 +78,7 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-04`,
     time: "08:30",
     title: "🏔️ 藏王樹冰 (纜車山頂)",
-    note: "❄️ 必備：墨鏡、防雪靴、手套、毛帽。\n⚠️ 警告：嚴禁靠近樹井，請走步道。",
+    note: "❄️ 必備：墨鏡、防雪靴、手套、毛帽、口罩。\n⚠️ 警告：嚴禁靠近樹井，請走步道。",
     details:
       "【藏王樹冰 (Ice Monsters)】\n這是東北冬季限定的奇景！來自西伯利亞的寒風夾帶水氣，撞擊到藏王的針葉林，在樹上凝結成冰，層層堆疊後形成形狀各異的「雪怪」。\n\n⚠️ 安全須知：\n1. 樹井危險：樹幹周圍的雪是鬆軟的空洞，掉進去非常難自行爬出，甚至會窒息。請絕對不要為了拍照而踏入無人踩過的雪地！\n2. 極度寒冷：山頂溫度可達 -10 度以下，手機請貼暖暖包保溫。",
     lat: 38.1544,
@@ -114,7 +108,7 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-04`,
     time: "13:20",
     title: "🏔️ 山寺立石寺參拜",
-    note: "必爬 1015 階梯看展望台！\n攻略 1：https://travistotravel.com/2025/01/09/%E5%B1%B1%E5%BD%A2%E8%87%AA%E7%94%B1%E8%A1%8C%E5%B1%B1%E5%AF%BA%E7%AB%8B%E7%9F%B3%E5%AF%BA/\n攻略 2：https://tohoku.letsgojp.com/archives/21103/\n攻略 3：https://listentolu.com/2025/03/yamadera/",
+    note: "必爬 1015 階梯看展望台！\n入山費用： 500元\n攻略 1：https://travistotravel.com/2025/01/09/%E5%B1%B1%E5%BD%A2%E8%87%AA%E7%94%B1%E8%A1%8C%E5%B1%B1%E5%AF%BA%E7%AB%8B%E7%9F%B3%E5%AF%BA/\n攻略 2：https://tohoku.letsgojp.com/archives/21103/\n攻略 3：https://listentolu.com/2025/03/yamadera/",
     details:
       "【寶珠山 立石寺】\n由慈覺大師於西元 860 年開山，是東北代表性的靈場。詩人松尾芭蕉曾在此留下名句：「閑さや 岩にしみ入る 蝉の声」（寂靜啊，蟬聲滲入岩石中）。\n\n⚠️ 冬季登山警告：\n1. 絕對防滑：這 1015 階石梯在冬天會結成「冰溜滑梯」，非常滑！強烈建議在山下商店購買或自備「簡易冰爪 (雪抓)」，套在鞋子上再上山。\n2. 下山更危險：上山容易下山難，重心要放低，手抓扶手。\n3. 景色：雖然辛苦，但爬到「五大堂」看出去的雪景，彷彿水墨畫般美麗，非常值得！",
     lat: 38.3126,
@@ -122,9 +116,15 @@ export const initialItineraryData = [
   },
   {
     date: `${TRIP_YEAR}-02-04`,
-    time: "15:30",
+    time: "15:20",
+    title: "前往腰掛庵",
+    note: "車程約30分",
+  },
+  {
+    date: `${TRIP_YEAR}-02-04`,
+    time: "15:45",
     title: "腰掛庵",
-    note: "招牌：蕨餅、草莓大福、蕎麥糰子\n地圖：https://www.google.com/maps/search/?api=1&query=Koshikakean+Yamagata",
+    note: "招牌：蕨餅、草莓大福、蕎麥糰子(外帶晚上吃)\n地圖：https://www.google.com/maps/search/?api=1&query=Koshikakean+Yamagata",
     details:
       "【腰掛庵 (Koshikakean)】\n山形縣極具代表性的和菓子名店，經常入選 Tabelog 甜點百名店。店面位於一座古色古香的明治時代「藏」建築（倉庫）內。\n\n🍡 推薦商品：\n1. 蕨餅 (わらび餅)：店內人氣 No.1！口感極其軟嫩綿密，甚至有「入口即化」的驚人美譽，裹上香氣濃郁的黃豆粉，是必買清單。\n2. 草莓大福 (季節限定)：冬季與春季限定！與一般大福不同，腰掛庵是用招牌蕨餅皮包覆大顆多汁草莓與細緻紅豆沙，蕨餅的Q彈與草莓的酸甜完美結合，非常受歡迎。\n3. 蕎麥糰子：帶有淡雅蕎麥香氣的糰子，搭配甜而不膩的紅豆餡或沾醬，口感Q彈扎實。\n⚠️ 注意：由於人氣極高，商品（尤其是草莓大福）常在傍晚前就售罄。",
   },
@@ -151,6 +151,12 @@ export const initialItineraryData = [
     time: "09:15",
     title: "銀山溫泉退房出發",
     note: "",
+  },
+  {
+    date: `${TRIP_YEAR}-02-05`,
+    time: "09:15",
+    title: "前往最上川游船",
+    note: "車程1.5小時",
   },
   {
     date: `${TRIP_YEAR}-02-05`,
@@ -181,7 +187,7 @@ export const initialItineraryData = [
   {
     date: `${TRIP_YEAR}-02-05`,
     time: "14:00",
-    title: "前往松森農場",
+    title: "前往一苺一笑 松森農場",
     note: "車程1小時",
   },
   {
@@ -193,6 +199,12 @@ export const initialItineraryData = [
       "這裡採用高架栽培，採草莓時不需要彎腰，非常輕鬆。農場內還有販賣自製的草莓甜點和果醬。",
     lat: 38.3183,
     lng: 140.9022,
+  },
+  {
+    date: `${TRIP_YEAR}-02-05`,
+    time: "16:00",
+    title: "前往秋保溫泉",
+    note: "車程40分鐘",
   },
   {
     date: `${TRIP_YEAR}-02-05`,
@@ -214,13 +226,25 @@ export const initialItineraryData = [
   },
   {
     date: `${TRIP_YEAR}-02-06`,
+    time: "09:30",
+    title: "前往藏王狐狸村",
+    note: "車程1小時",
+  },
+  {
+    date: `${TRIP_YEAR}-02-06`,
     time: "10:30",
     title: "藏王狐狸村",
-    note: "冬毛狐狸、餵食體驗\n地圖：https://www.google.com/maps/search/?api=1&query=Zao+Fox+Village",
+    note: "停留1.5小時\n冬毛狐狸、餵食體驗\n地圖：https://www.google.com/maps/search/?api=1&query=Zao+Fox+Village",
     details:
       "這裡放養了超過 100 隻狐狸！冬天的狐狸毛最蓬鬆可愛。請注意：雖然牠們看起來很可愛，但仍有野性，請勿隨意觸摸，以免被咬。要在指定的高台區才能進行餵食。",
     lat: 38.0411,
     lng: 140.5313, // 狐狸村
+  },
+  {
+    date: `${TRIP_YEAR}-02-06`,
+    time: "12:00",
+    title: "前往 Noodle shop Arakawa",
+    note: "車程1小時",
   },
   {
     date: `${TRIP_YEAR}-02-06`,
@@ -229,6 +253,12 @@ export const initialItineraryData = [
     note: "百名店拉麵\n地圖：https://www.google.com/maps/search/?api=1&query=Noodle+shop+Arakawa+Sendai",
     details:
       "這是一間多次入選日本百名店的拉麵店，以鴨湯鴨肉拉麵聞名。湯頭清爽鮮甜，鴨肉軟嫩。",
+  },
+  {
+    date: `${TRIP_YEAR}-02-06`,
+    time: "12:00",
+    title: "前往 金蛇水神社",
+    note: "車程10分鐘",
   },
   {
     date: `${TRIP_YEAR}-02-06`,
@@ -244,7 +274,7 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-06`,
     time: "14:50",
     title: "前往三井 Outlet 仙台港",
-    note: "",
+    note: "車程1小時",
   },
   {
     date: `${TRIP_YEAR}-02-06`,
@@ -255,6 +285,12 @@ export const initialItineraryData = [
       "東北最大的 Outlet 之一，有摩天輪地標。品牌非常齊全，包括 GAP, Nike, Adidas, Coach 等等。美食街也有很多仙台在地美食。",
     lat: 38.2736,
     lng: 140.9934,
+  },
+  {
+    date: `${TRIP_YEAR}-02-06`,
+    time: "18:00",
+    title: "前往仙台市區",
+    note: "車程40分鐘",
   },
   {
     date: `${TRIP_YEAR}-02-06`,
@@ -450,4 +486,58 @@ export const defaultTodoList = [
   { text: "防水鞋 / 雪地鞋 / 雪抓", completed: false },
   { text: "手套、圍巾、帽子", completed: false },
   { text: "常備藥 (感冒/腸胃/止痛)", completed: false },
+];
+
+// src/data/initialData.js
+
+export const couponData = [
+  {
+    id: 1,
+    title: "AEON Mall 專屬優惠券",
+    desc: "免稅10% + 500日圓現金折扣券 (或是領取精美小禮物)",
+    link: "https://www.aeon-natori.jp/static/detail/translation-service",
+    category: "百貨/超市",
+  },
+  {
+    id: 2,
+    title: "大國藥妝 (Daikoku Drug)",
+    desc: "最高免稅10% + 7% 折扣 (需滿額)",
+    link: "https://www.daikokudrug.com/customer/coupon/",
+    category: "藥妝",
+  },
+  {
+    id: 3,
+    title: "松本清 (Matsumotokiyoshi)",
+    desc: "免稅10% + 最高7% 折扣",
+    link: "https://www.matsukiyococokara-online.com/game?redirect=https%3A%2F%2Fwww.matsukiyococokara-online.com%2F",
+    category: "藥妝",
+  },
+  {
+    id: 4,
+    title: "SUNDRUG (尚都樂客)",
+    desc: "免稅10% + 最高7% 折扣",
+    link: "https://cs.sundrug.co.jp/cs/column/Coupon_EN/",
+    category: "藥妝",
+  },
+  {
+    id: 5,
+    title: "Bic Camera 優惠券",
+    desc: "電器免稅10% + 7% 折扣 / 藥妝 5% / 酒類 3%",
+    link: "https://www.biccamera.com.target.lp/coupon/",
+    category: "電器/百貨",
+  },
+  {
+    id: 6,
+    title: "唐吉訶德 (Don Quijote)",
+    desc: "滿10,000日圓以上免稅10% + 5% 折扣",
+    link: "https://www.djapanpass.com/coupon/0004000103",
+    category: "百貨/雜貨",
+  },
+  {
+    id: 7,
+    title: "三井 Outlet 仙台港",
+    desc: "出示護照領取特別優惠券 (折扣率依各店而異)",
+    link: "https://mitsui-shopping-park.com/mop/sendai/tw/",
+    category: "購物中心",
+  },
 ];
