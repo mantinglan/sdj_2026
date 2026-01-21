@@ -161,12 +161,12 @@ export const initialItineraryData = [
   {
     date: `${TRIP_YEAR}-02-05`,
     time: "10:50",
-    title: "最上川游船",
-    note: "船內午餐，10:50船班\n乘船處：https://www.google.com/maps/search/?api=1&query=Mogami+River+Basho+Line+Descent",
+    title: "最上川芭蕉航線 (最上峡芭蕉ライン観光)",
+    note: "【上車點：古口港（戶澤藩船番所）】\n地圖：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n或1",
     details:
-      "搭乘暖氣船順流而下，一邊欣賞兩岸壯麗的雪景，一邊享用船上便當。船夫還會吟唱當地的船歌，非常有氣氛。這也是當年《阿信》拍攝的場景之一。",
-    lat: 38.7423,
-    lng: 140.1661, // 最上川
+      "【最上川芭蕉航線 - 雪見舟體驗】\n最上川是山形縣的母親河，冬天的「雪見舟」可以坐在暖氣船內欣賞如山水畫般的銀白世界。\n\n📍 乘船資訊：\n1. 上車點（出發地）：古口港（戶澤藩船番所）。\n2. 下車點（目的地）：草薙港（最上川交匯處）。\n3. 船期：每小時約有一班，全程約 50 分鐘。\n\n🍡 船上筆記：\n- 船夫會一邊划船一邊唱著傳統的「最上川舟唄」，氣氛極佳。\n- 冬天船內有暖爐，非常舒適。\n- 推薦在船上享用現做的「暖心糰子」或預約特色便當。\n\n🔗 攻略參考：https://mimigo.tw/mogami-gorge/",
+    lat: 38.7538,
+    lng: 140.1345,
   },
   {
     date: `${TRIP_YEAR}-02-05`,
@@ -462,19 +462,33 @@ export const initialItineraryData = [
   // --- Day 6: 2/8 (日) ---
   {
     date: `${TRIP_YEAR}-02-08`,
-    time: "08:30",
-    title: "🛍️ 仙台車站最後衝刺 (二樓伴手禮區)",
-    note: "必買：毛豆麻糬 (ずんだ餅)\n地點：S-PAL 仙台 2F 伴手禮處\n地圖 1：https://maps.app.goo.gl/rY7CXdzGmbYL2Km18?g_st=ipc\n地圖 2：https://maps.app.goo.gl/sTHdamaPHaTJLrrz8?g_st=ipc",
+    time: "08:00",
+    title: "🥐 早餐（彈性選擇）",
+    note: "仙台朝市 / 麥當勞 / 車站咖啡廳",
     details:
-      "【仙台車站 2F 購物攻略】\n這裡集合了多家綜合伴手禮店，是離開前掃貨的最佳地點。\n\n🍡 必買推薦：\n1. 毛豆麻糬 (ずんだ餅)：仙台最具代表性的甜點，鮮綠色的毛豆泥配上 Q 彈麻糬，味道鹹甜適中。除了現吃的，也有冷凍包裝可以帶回飯店或機場享用。\n2. 萩之月、喜久福大福：都在這區可以一站式買齊。\n\n⚠️ 退稅重要提醒：\n在仙台車站 2F（S-PAL 仙台）的多家綜合伴手禮店購買，通常可以「跨店累積退稅」。請在結帳時確認是否有 Tax-Free 標示，並統一前往 2F 或 3F 的退稅櫃台辦理（需出示護照）。",
+      "最後一天早餐建議：\n1. 仙台朝市 (走路5-8分)：體驗海鮮丼、定食、現炸物與熱湯。\n2. 麥當勞：簡單快速。\n3. 車站周邊咖啡廳：如 Dotour 或 Starbucks，享用吐司三明治與咖啡。",
+    lat: 38.2588,
+    lng: 140.8804,
+  },
+  {
+    date: `${TRIP_YEAR}-02-08`,
+    time: "09:30",
+    title: "🛍️ 最後購物與伴手禮掃貨",
+    note: "必買：毛豆麻糬 (ずんだ餅)\n地點：S-PAL 2F 綜合伴手禮區、Loft、仙台地下街",
+    details:
+      "【購物重點】\n1. S-PAL 2F 伴手禮：集合多家名店，可跨店累積退稅。別忘了買「ずんだ餅」與「萩之月」。\n2. Loft 仙台店：文具、美妝最後補貨。\n3. 跨店退稅：請確認 S-PAL 標誌，統一至退稅櫃台辦理（需護照）。",
     lat: 38.2603,
     lng: 140.8821,
   },
   {
     date: `${TRIP_YEAR}-02-08`,
-    time: "11:30",
-    title: "午餐：牛舌「閣」",
-    note: "套餐推薦\n地圖：https://www.google.com/maps/search/?api=1&query=Gyutan+Kaku+Sendai",
+    time: "11:45",
+    title: "🍽️ 午餐：米澤牛燒肉 仔虎 (仙台站前店)",
+    note: "預約/抵達時間 11:45\n必吃：米澤牛午間套餐\n地圖：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n或2",
+    details:
+      "【燒肉仔虎 (Toratora) - 米澤牛專門店】\n既然來到東北，絕對不能錯過三大和牛之一的「米澤牛」。仙台站前店位於 Herb 仙台大樓 8 樓，窗外視野極佳。\n\n🥩 推薦點餐：\n1. 上質米澤牛午間套餐：約 ¥3,000 - ¥5,000 就能吃到極高等級的和牛燒肉，附沙拉、小菜、米飯及湯。\n2. 仔虎招牌冷麵：吃完燒肉後非常解膩的必點單品。\n\n📍 地點：宮城県仙台市青葉区中央1-6-1 Herb SENDAI 8F\n🔗 攻略參考：https://kaikk.tw/toranomon/\n⚠️ 提醒：11:45 請準時抵達。若有預約請出示預約畫面。",
+    lat: 38.2616,
+    lng: 140.8797,
   },
   {
     date: `${TRIP_YEAR}-02-08`,
