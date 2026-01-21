@@ -786,7 +786,7 @@ const Itinerary = () => {
                     <BookOpen size={14} /> 景點介紹 / 故事
                   </h4>
                   <div className="text-coffee-600 text-[15px] leading-7 whitespace-pre-wrap">
-                    {viewingEvent.details}
+                    <Linkify text={viewingEvent.details} />
                   </div>
                 </div>
               )}

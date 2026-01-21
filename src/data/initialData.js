@@ -503,21 +503,18 @@ export const initialItineraryData = [
     note: "回飯店拿行李，搭乘空港快線前往機場",
     details:
       "預計搭乘 15:00 左右的空港快線，約 15:15 抵達機場辦理登機。\n交通攻略：https://nicklee.tw/2343/to-sendai-airport/\n交通攻略：https://pp761211.pixnet.net/blog/posts/14223058077",
-    group: "B",
   },
   {
     date: `${TRIP_YEAR}-02-08`,
     time: "16:15",
     title: "🛫 A 組起飛返台",
     note: "預計抵達台灣：19:15",
-    group: "A",
   },
   {
     date: `${TRIP_YEAR}-02-08`,
     time: "17:25",
     title: "🛫 B 組起飛返台",
     note: "預計抵達台灣：20:25",
-    group: "B",
   },
 ];
 
