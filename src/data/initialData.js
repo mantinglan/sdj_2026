@@ -464,9 +464,9 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-08`,
     time: "08:00",
     title: "🥐 早餐（彈性選擇）",
-    note: "仙台朝市 / 麥當勞 / 車站咖啡廳",
+    note: "仙台朝市 / 麥當勞 / 青山文庫 / Eggs 'n Things",
     details:
-      "最後一天早餐建議：\n1. 仙台朝市 (走路5-8分)：體驗海鮮丼、定食、現炸物與熱湯。\n2. 麥當勞：簡單快速。\n3. 車站周邊咖啡廳：如 Dotour 或 Starbucks，享用吐司三明治與咖啡。",
+      "最後一天早餐建議：\n1. 仙台朝市 (走路5-8分)：體驗海鮮丼、定食、現炸物與熱湯。\n2. 麥當勞：簡單快速，位於車站周邊。\n3. Cafe 青山文庫 (07:30–23:00)：極具氛圍的書本主題咖啡廳，提供美味的厚吐司與咖啡。\n4. Eggs 'n Things (09:00–20:00)：來自夏威夷的人氣鬆餅，奶油堆得像山一樣高，是甜點控首選。",
     lat: 38.2588,
     lng: 140.8804,
   },
@@ -474,9 +474,9 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-08`,
     time: "09:30",
     title: "🛍️ 最後購物與伴手禮掃貨",
-    note: "必買：毛豆麻糬 (ずんだ餅)\n地點：S-PAL 2F 綜合伴手禮區、Loft、仙台地下街",
+    note: "必買：毛豆麻糬 (ずんだ餅)、豆沙屋鯛魚燒\n地點：S-PAL 2F 綜合伴手禮、Anko(豆沙)屋、鯛吉",
     details:
-      "【購物重點】\n1. S-PAL 2F 伴手禮：集合多家名店，可跨店累積退稅。別忘了買「ずんだ餅」與「萩之月」。\n2. Loft 仙台店：文具、美妝最後補貨。\n3. 跨店退稅：請確認 S-PAL 標誌，統一至退稅櫃台辦理（需護照）。",
+      "【購物重點】\n1. S-PAL 2F 伴手禮：集合多家名店，可跨店累積退稅。別忘了買「ずんだ餅」與「萩之月」。\n2. 點心補貨：\n   - **Anko(豆沙)屋 站前店**：這家鯛魚燒皮薄餡多，紅豆泥非常綿密，建議買了現吃！地圖：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n或3\n   - **鯛吉 仙台驛前店**：除了經典紅豆，還有黑芝麻或季節限定口味，適合當上機前的點心。地圖：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n或4\n3. Loft 仙台店：文具、美妝最後補貨。\n4. 跨店退稅：請確認 S-PAL 標誌，統一至退稅櫃台辦理（需護照）。",
     lat: 38.2603,
     lng: 140.8821,
   },
