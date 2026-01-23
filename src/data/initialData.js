@@ -15,40 +15,53 @@ export const initialItineraryData = [
   {
     date: `${TRIP_YEAR}-02-03`,
     time: "15:00",
-    title: "AEON Mall 名取店 (第一組)",
-    note: "第一組先行開逛 / 超市補給\n地圖：https://maps.app.goo.gl/3q8YwXvP8Xp8Xp8Xp",
+    title: "🌊 閖上河岸商店街 (第一組)",
+    note: "第一組先行逛逛商店街\n地圖：https://maps.app.goo.gl/oVgB9Vn4XpoR98Ub7",
+    group: "A",
     details:
-      "AEON Mall 名取店是仙台機場附近最大的購物中心，擁有非常大型的超市與各式品牌。第一組可以在此購買往後幾天需要的零食、飲料或保暖衣物。",
-    lat: 38.1636,
-    lng: 140.893,
+      "【閖上河岸商店街 (Kawamachi Terrazza Yuriage)】\n位於名取川河口，是一個充滿在地特色與美食的商店街。第一組可以在此品嚐新鮮海產、甜點，享受河岸風景，直到第二組抵達。",
+    lat: 38.1738,
+    lng: 140.9472,
   },
   {
     date: `${TRIP_YEAR}-02-03`,
     time: "16:00",
-    title: "第二組抵達仙台機場",
+    title: "✈️ 第二組抵達仙台機場",
     note: "第一組返回機場接人，全員會合",
+    lat: 38.1399,
+    lng: 140.9168,
   },
   {
     date: `${TRIP_YEAR}-02-03`,
     time: "16:20",
-    title: "前往山形市區",
-    note: "車程約 1 小時",
+    title: "🚗 前往天童 AEON",
+    note: "全員上車，車程約 1.5 小時",
   },
   {
     date: `${TRIP_YEAR}-02-03`,
-    time: "",
-    title: "飯店 Check-in & 超市補給",
-    note: "住宿：山形站前大和 ROYNET\n可以先去 S-PAL 超市買消夜/零食 (19:30關門)\n飯店導航：https://www.google.com/maps/search/?api=1&query=Daiwa+Roynet+Hotel+Yamagata+Station",
+    time: "17:50",
+    title: "🛍️ AEON Mall 天童 (超市補給)",
+    note: "停留 70 分鐘 / 超市補給、零食採購\n地圖：https://maps.app.goo.gl/oRnye32CCH42XmHa7",
+    details:
+      "【天童 AEON Mall】\n這是山形縣內規模極大的購物中心。建議直接鎖定 1F 的超大型食品超市購買往後幾天的飲料、水果、泡麵與消夜。",
+    lat: 38.3377,
+    lng: 140.3662,
+  },
+  {
+    date: `${TRIP_YEAR}-02-03`,
+    time: "19:30",
+    title: "🏨 抵達飯店 Check-in",
+    note: "住宿：山形站前大和 ROYNET\n放行李、稍作休息\n導航：https://www.google.com/maps/search/?api=1&query=Daiwa+Roynet+Hotel+Yamagata+Station",
     lat: 38.2486,
     lng: 140.3273,
   },
   {
     date: `${TRIP_YEAR}-02-03`,
     time: "",
-    title: "晚餐：平田牧場 (炸豬排)",
-    note: "位於山形車站大樓內，金華豬非常有名！\n地圖：https://www.google.com/maps/search/?api=1&query=Hirata+Bokujo+Yamagata+Station\n食記參考：\nhttps://goflyting.com/hiratabokujo/\nhttps://jatravel.tw/hiraboku/",
+    title: "🍽️ 晚餐：平田牧場 (炸豬排)",
+    note: "營業時間：11:00–21:00\n位於山形車站大樓內，金華豬非常有名！\n地圖：https://www.google.com/maps/search/?api=1&query=Hirata+Bokujo+Yamagata+Station\n食記參考：\nhttps://goflyting.com/hiratabokujo/\nhttps://jatravel.tw/hiraboku/",
     details:
-      "平田牧場以「金華豬」聞名，這種豬肉肉質細膩、脂肪鮮甜，被譽為日本頂級豬肉之一。推薦點厚切炸豬排定食，搭配特製的芝麻醬汁。",
+      "【平田牧場 (Hirata Bokujo)】\n以極高品質的「金華豬」聞名，肉質細嫩且脂肪帶有甜味。預計 20:00 前往，由於營業至 21:00，請注意最後入店時間（通常為 20:30）。",
   },
   {
     date: `${TRIP_YEAR}-02-03`,
@@ -88,7 +101,7 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-04`,
     time: "11:00",
     title: "道の駅 やまがた蔵王 (彈性)",
-    note: "視山上寒冷程度決定停留長短\n地圖：https://maps.app.goo.gl/9uG5oR5f8WvD8YyD8",
+    note: "視山上寒冷程度決定停留長短\n地圖：https://maps.app.goo.gl/UbnT2Zw3EKzQg1SAA",
     details:
       "這是一個較新的休息站，如果山上太冷可以提早下山來這裡取暖、逛農產品。來得及就去，不強求。",
     lat: 38.2125,
@@ -120,7 +133,7 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-04`,
     time: "13:20",
     title: "🏔️ 山寺立石寺參拜",
-    note: "必爬 1015 階梯看展望台！\n入山費用： 500元\n攻略 1：https://travistotravel.com/2025/01/09/%E5%B1%B1%E5%BD%A2%E8%87%AA%E7%94%B1%E8%A1%8C%E5%B1%B1%E5%AF%BA%E7%AB%8B%E7%9F%B3%E5%AF%BA/\n攻略 2：https://tohoku.letsgojp.com/archives/21103/\n攻略 3：https://listentolu.com/2025/03/yamadera/",
+    note: "必爬 1015 階梯看展望台！\n入山費用： 500元\n地圖：https://maps.app.goo.gl/YjT2NktpUSgnU6qm9\n攻略 1：https://travistotravel.com/2025/01/09/%E5%B1%B1%E5%BD%A2%E8%87%AA%E7%94%B1%E8%A1%8C%E5%B1%B1%E5%AF%BA%E7%AB%8B%E7%9F%B3%E5%AF%BA/\n攻略 2：https://tohoku.letsgojp.com/archives/21103/\n攻略 3：https://listentolu.com/2025/03/yamadera/",
     details:
       "【寶珠山 立石寺】\n由慈覺大師於西元 860 年開山，是東北代表性的靈場。詩人松尾芭蕉曾在此留下名句：「閑さや 岩にしみ入る 蝉の声」（寂靜啊，蟬聲滲入岩石中）。\n\n⚠️ 冬季登山警告：\n1. 絕對防滑：這 1015 階石梯在冬天會結成「冰溜滑梯」，非常滑！強烈建議在山下商店購買或自備「簡易冰爪 (雪抓)」，套在鞋子上再上山。\n2. 下山更危險：上山容易下山難，重心要放低，手抓扶手。\n3. 景色：雖然辛苦，但爬到「五大堂」看出去的雪景，彷彿水墨畫般美麗，非常值得！",
     lat: 38.3126,
@@ -174,7 +187,7 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-05`,
     time: "10:50",
     title: "最上川芭蕉航線 (最上峡芭蕉ライン観光)",
-    note: "【上車點：古口港（戶澤藩船番所）】\n地圖：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n或1",
+    note: "【上車點：古口港（戶澤藩船番所）】\n地圖：https://maps.app.goo.gl/r5qhsh5fkaGv8aw69",
     details:
       "【最上川芭蕉航線 - 雪見舟體驗】\n最上川是山形縣的母親河，冬天的「雪見舟」可以坐在暖氣船內欣賞如山水畫般的銀白世界。\n\n📍 乘船資訊：\n1. 上車點（出發地）：古口港（戶澤藩船番所）。\n2. 下車點（目的地）：草薙港（最上川交匯處）。\n3. 船期：每小時約有一班，全程約 50 分鐘。\n\n🍡 船上筆記：\n- 船夫會一邊划船一邊唱著傳統的「最上川舟唄」，氣氛極佳。\n- 冬天船內有暖爐，非常舒適。\n- 推薦在船上享用現做的「暖心糰子」或預約特色便當。\n\n🔗 攻略參考：https://mimigo.tw/mogami-gorge/",
     lat: 38.7538,
@@ -190,7 +203,7 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-05`,
     time: "13:30",
     title: "あ･ら･伊達な道の駅",
-    note: "停留30分\n地圖：https://www.google.com/maps/search/?api=1&query=Ala+Datena+Michi+no+Eki",
+    note: "停留30分\n地圖：https://maps.app.goo.gl/7fodWLj7SAkXUqWe8",
     details:
       "這是一個非常受歡迎的休息站，每年都有數百萬人次造訪。裡面販賣非常多東北限定的伴手禮，還有知名的 ROYCE' 巧克力（因為姊妹市的關係）。",
     lat: 38.7302,
@@ -206,7 +219,7 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-05`,
     time: "15:00",
     title: "一苺一笑 松森農場",
-    note: "採草莓停留60分\n地圖：https://www.google.com/maps/search/?api=1&query=Ichi-Ichigo-Ichie+Matsumori+Farm",
+    note: "採草莓停留60分\n地圖：https://maps.app.goo.gl/Q5JfJhQnRt5okKDq7",
     details:
       "這裡採用高架栽培，採草莓時不需要彎腰，非常輕鬆。農場內還有販賣自製的草莓甜點和果醬。",
     lat: 38.3183,
@@ -262,7 +275,7 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-06`,
     time: "13:00",
     title: "午餐：Noodle shop Arakawa",
-    note: "百名店拉麵\n地圖：https://www.google.com/maps/search/?api=1&query=Noodle+shop+Arakawa+Sendai",
+    note: "百名店拉麵\n地圖：https://maps.app.goo.gl/SqkQbTJbBJodrKmAA",
     details:
       "這是一間多次入選日本百名店的拉麵店，以鴨湯鴨肉拉麵聞名。湯頭清爽鮮甜，鴨肉軟嫩。",
   },
@@ -276,7 +289,7 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-06`,
     time: "14:10",
     title: "金蛇水神社",
-    note: "財運神社、雪中參拜\n地圖：https://www.google.com/maps/search/?api=1&query=Kanahebisui+Shrine",
+    note: "財運神社、雪中參拜\n地圖：https://maps.app.goo.gl/2uSsmMuXBp3SRJne6",
     details:
       "以祈求財運和生意興隆聞名的神社，主祭神是水神。神社內有許多蛇形石頭，據說用錢包去擦拭可以增加財運。神社內的咖啡廳也非常時尚。",
     lat: 38.1098,
@@ -308,7 +321,7 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-06`,
     time: "19:30",
     title: "🍽️ 晚餐：伊達のいろり焼 蔵の庄 一番町本店",
-    note: "✅ 已預約 19:30\n訂位大名：Lin\n人數：10大1小(10個月)\n地圖：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n或7",
+    note: "✅ 已預約 19:30\n訂位大名：Lin\n人數：10大1小(10個月)\n地圖：https://maps.app.goo.gl/VVoJiRAZMJrhbEhw8",
     details:
       "【蔵の庄 (Kuranosho) - 仙台在地炉端燒】\n這是一家可以吃到宮城縣在地食材與爐端燒料理的名店。\n\n📍 地址：宮城県仙台市青葉区一番町3-8-14 鈴喜アバンティビル2F\n📞 電話：+81-22-224-3031\n🥩 推薦必點：\n1. 炭火燒烤魚：師傅現場用紅火炭烤，皮脆肉嫩。\n2. 地元野菜串燒：使用仙台當地的時令蔬菜。\n3. 名物厚揚：厚炸豆腐配上大量蔥花。\n\n⚠️ 提醒：預約 19:30，請準時抵達。餐廳位於 2 樓，推嬰兒車可能需注意樓梯或電梯位置。",
     lat: 38.2608,
@@ -316,7 +329,7 @@ export const initialItineraryData = [
   },
   {
     date: `${TRIP_YEAR}-02-06`,
-    time: "21:00",
+    time: "",
     title: "🏨 住宿：Hotel 京阪 仙台",
     note: "📍 地址：宮城県仙台市青葉区中央3丁目3-5\n📞 電話：022-263-0321\n🗺️ 導航：https://www.google.com/maps/search/?api=1&query=Hotel+Keihan+Sendai",
     lat: 38.2601,
@@ -325,57 +338,69 @@ export const initialItineraryData = [
 
   // --- Day 5: 2/7 (六) ---
   // Option A
+  // --- Day 5: 2/7 (六) Option A 最佳化跑法 ---
   {
     date: `${TRIP_YEAR}-02-07`,
-    time: "08:00",
-    title: "仙台朝市",
-    note: "海鮮丼、牛舌飯糰、炸魚餅\n地圖：https://www.google.com/maps/search/?api=1&query=Sendai+Morning+Market",
+    time: "08:30",
+    title: "仙台朝市 (起點)",
+    note: "從飯店步行約 5-10 分鐘\n地圖：https://www.google.com/maps/search/?api=1&query=Sendai+Morning+Market",
     group: "A",
     details:
-      "被稱為「仙台的廚房」，距離車站很近。這裡可以買到新鮮便宜的水果（草莓、蘋果），還有人氣排隊美食「炸魚餅」和新鮮的「朝市海鮮丼」。",
+      "【仙台的廚房】\n早餐就在這裡解決！\n1. 朝市海鮮丼：體驗自己選料的樂趣。\n2. 齋藤惣菜店：必買「炸馬鈴薯餅 (ころっけ)」。\n3. 採買水果：2月是草莓季，可以在這買兩盒帶回飯店吃。",
     lat: 38.2588,
     lng: 140.8804,
   },
   {
     date: `${TRIP_YEAR}-02-07`,
     time: "10:00",
-    title: "瑞鳳殿",
-    note: "伊達政宗靈廟、雪景清幽\n地圖：https://www.google.com/maps/search/?api=1&query=Zuihoden",
+    title: "搭乘 Loople 仙台 或 計程車",
+    note: "前往瑞鳳殿",
     group: "A",
+  },
+  {
+    date: `${TRIP_YEAR}-02-07`,
+    time: "10:30",
+    title: "瑞鳳殿",
+    note: "伊達政宗靈廟 / 需爬段階梯\n地圖：https://www.google.com/maps/search/?api=1&query=Zuihoden",
+    group: "A",
+    details:
+      "桃山文化的華麗建築。冬天的雪景配上紅、金色的建築非常壯觀。入內需購買門票，若有 Loople 巴士一日券可享折扣。",
     lat: 38.2524,
     lng: 140.8655,
   },
   {
     date: `${TRIP_YEAR}-02-07`,
-    time: "11:30",
+    time: "12:00",
     title: "市區午餐",
-    note: "",
+    note: "位於車站附近或廣瀨通\n地圖：http://googleusercontent.com/maps.google.com/仔虎",
     group: "A",
+    details: "如果晚餐是牛舌，中午推薦吃山形米澤牛燒肉「仔虎」。",
   },
   {
     date: `${TRIP_YEAR}-02-07`,
-    time: "13:15",
-    title: "青葉城跡",
-    note: "伊達政宗騎馬像、市區展望\n地圖：https://www.google.com/maps/search/?api=1&query=Aoba+Castle+Ruins",
+    time: "13:30",
+    title: "青葉城跡 (仙台城跡)",
+    note: "俯瞰仙台全景、與政宗公合照\n地圖：https://www.google.com/maps/search/?api=1&query=Aoba+Castle+Ruins",
     group: "A",
     details:
-      "這裡是過去仙台城的遺址，雖然城堡已經不在，但伊達政宗帥氣的騎馬銅像依然守護著這座城市。這裡也是俯瞰仙台市區夜景的絕佳地點。",
+      "搭巴士直達山頂。這裡雖然沒有天守閣，但伊達政宗的騎馬像與俯瞰仙台市的視野是絕對必看的風景。",
     lat: 38.2526,
     lng: 140.8561,
   },
   {
     date: `${TRIP_YEAR}-02-07`,
-    time: "15:00",
-    title: "定禪寺通散步",
-    note: "櫸木大道、咖啡休息\n地圖：https://www.google.com/maps/search/?api=1&query=Jozenji+dori",
+    time: "15:30",
+    title: "定禪寺通散步 & 勾當台公園",
+    note: "森林之都縮影\n地圖：https://www.google.com/maps/search/?api=1&query=Jozenji+dori",
     group: "A",
     details:
-      "仙台被稱為「杜之都（森林之都）」，定禪寺通就是最好的代表。道路兩旁種滿了巨大的櫸木，景色非常優美。這裡有很多特色咖啡廳，很適合散步休息。",
+      "從青葉城搭車回來，在「定禪寺通市役所前」下車。走在櫸木大道中間的步道，兩旁有許多雕塑，非常適合在這邊找間咖啡廳（如：Blue Leaf Cafe）休息，準備晚上與 B 組會合。",
     lat: 38.2657,
     lng: 140.8669,
   },
 
   // Option B
+  // --- Day 5: 2/7 (六) Option B ---
   {
     date: `${TRIP_YEAR}-02-07`,
     time: "08:00",
@@ -389,70 +414,82 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-07`,
     time: "09:00",
     title: "前往松島",
-    note: "從仙台車站搭乘JR仙石線快速列車（車程約25分鐘）",
+    note: "搭乘 JR 仙石線快速 (約25分)\n請於「松島海岸站」下車",
     group: "B",
-    details:
-      "JR 仙石線是連結仙台與石卷的鐵路，沿著海岸線行駛。請搭乘「快速」或「普通」列車至「松島海岸站」下車（非松島站）。沿途景色會從市區轉變為海景，非常漂亮。",
   },
   {
     date: `${TRIP_YEAR}-02-07`,
     time: "09:30",
-    title: "松島灣＋五大堂",
-    note: "海景拍照、輕鬆走\n地圖：https://www.google.com/maps/search/?api=1&query=Matsushima+Godaido",
+    title: "松島散策：五大堂 & 福浦橋",
+    note: "日本三景、結緣紅橋\n地圖：https://www.google.com/maps/search/?api=1&query=Matsushima+Godaido",
     group: "B",
     details:
-      "松島是「日本三景」之一。五大堂是松島的象徵，連結小島的紅橋被稱為「結緣橋」。",
+      "【五大堂】松島的地標。進去前會經過木製紅橋，腳下可見海面，很有趣。\n【福浦橋】需付費(200円)的長紅橋，走到底可以到福浦島，是拍照絕佳地點。",
     lat: 38.3697,
-    lng: 141.0617, // 松島
+    lng: 141.0617,
   },
   {
     date: `${TRIP_YEAR}-02-07`,
-    time: "10:10",
-    title: "寺院參觀 (擇一)",
-    note: "【円通院】庭園靜謐：https://www.google.com/maps/search/?api=1&query=Entsuin+Matsushima\n或 【瑞巌寺】東北名剎：https://www.google.com/maps/search/?api=1&query=Zuiganji+Temple",
+    time: "10:30",
+    title: "寺院參觀：円通院",
+    note: "枯山水庭園、數珠DIY體驗\n地圖：https://www.google.com/maps/search/?api=1&query=Entsuin+Matsushima\n",
     group: "B",
-    details:
-      "円通院以結緣和美麗的枯山水庭園聞名，秋天是賞楓名所。瑞巌寺則是伊達家的菩提寺，國寶級的建築非常壯觀。",
+    details: "円通院的氣氛非常靜謐，即使冬天也能感受其禪意。",
   },
   {
     date: `${TRIP_YEAR}-02-07`,
-    time: "11:30",
-    title: "午餐：牡蠣料理",
-    note: "準時吃才不用排隊",
+    time: "11:00",
+    title: "午餐：松島美食三選一",
+    note: "海鮮丼 / 牡蠣料理 / 魚市場巡禮\n營業時間與位置請見詳情",
     group: "B",
     details:
-      "松島的牡蠣非常有名！可以選擇去「牡蠣小屋」吃現烤吃到飽，或是去餐廳吃炸牡蠣定食、牡蠣丼。",
+      "【松島必吃美食名單】\n\n1. 漁師的海鮮丼 (漁師の海鮮丼)\n📍 地圖：https://maps.google.com/?cid=3495304063340860191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ\n✨ 特色：最浮誇的海鮮丼名店，料多到看不見飯。位子極少，建議 11:00 一開店就衝這家。\n\n2. かきと海鮮料理 旬海 (Shunkai)\n📍 地圖：https://maps.google.com/?cid=4399604388868478897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ\n✨ 特色：不僅有生食，更有專業的炸牡蠣與烤牡蠣定食。用餐環境相對舒適、寬敞。\n\n3. 松島魚市場 (松島さかな市場)\n📍 地圖：https://maps.google.com/?cid=668050928688449145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ\n✨ 特色：一樓有新鮮魚貨、現烤牡蠣與乾貨伴手禮；二樓有快速供餐區（鮪魚丼、牡蠣漢堡）。即使不在這吃正餐，也非常推薦來逛逛掃貨！",
+    lat: 38.371,
+    lng: 141.062,
   },
   {
     date: `${TRIP_YEAR}-02-07`,
     time: "13:00",
-    title: "松島遊船 (可選)",
-    note: "天氣好再搭，風大可跳過",
+    title: "🛳️ 松島遊船 (可選) 或 伴手禮購物",
+    note: "天氣好再搭船，或逛松島大街",
+    group: "B",
+    details: "松島大街有很多現烤仙貝、魚板，可以邊逛邊吃。",
+  },
+  {
+    date: `${TRIP_YEAR}-02-07`,
+    time: "14:30",
+    title: "鹽竈神社參拜 (可選) ",
+    note: "陸奧國一宮、安產與交通守護\n地圖：https://maps.google.com/?cid=3541436828985905067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ",
     group: "B",
     details:
-      "搭船出海可以近距離欣賞松島灣內大大小小的奇岩怪石。記得要坐在窗邊或去甲板餵海鷗（如果有開放）。",
+      "【鹽竈神社 (Shiogama Jinja)】\n擁有超過1200年歷史，是東北地位最高的神社之一。\n\n✨ 亮點：\n1. 表參道石階：挑戰著名的 202 級階梯（男坂），爬完可展現誠意。\n2. 建築美學：指定為國家重要文化財，呈現豪華的桃山建築風格。\n3. 海景：神社位於山頂，可以俯瞰鹽釜港的船隻進出。",
+    lat: 38.3191,
+    lng: 141.0205,
   },
   {
     date: `${TRIP_YEAR}-02-07`,
-    time: "14:00",
-    title: "松島咖啡／伴手禮",
-    note: "散步逛街",
+    time: "15:30",
+    title: "🍶 鹽竈名酒造巡禮：浦霞 & 阿部勘 (可選) ",
+    note: "地酒試飲、限定品購入\n地圖：https://maps.google.com/?cid=15357578696656197639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ",
     group: "B",
+    details:
+      "【鹽竈地酒體驗】\n這兩間酒造都在神社山腳下，走路即可抵達：\n\n1. **浦霞醸造元 (佐浦酒造)**：\n   - 代表名酒：浦霞 (Urakasumi)\n   - 體驗：本店提供付費試飲（Kikizake），約 300–500 日圓可品嚐當季限定酒，通常會附贈一個紀念酒杯。\n\n2. **阿部勘酒造 (Abekan)**：\n   - 代表名酒：阿部勘\n   - 特色：主打「為配海鮮而生」的酒，口感純淨乾爽，是搭配剛才午餐海鮮丼的最佳夥伴。",
+    lat: 38.3146,
+    lng: 141.0242,
   },
   {
     date: `${TRIP_YEAR}-02-07`,
-    time: "15:00",
+    time: "16:30",
     title: "返回仙台市區",
-    note: "搭乘 JR",
+    note: "準備與 A 組會合晚餐",
     group: "B",
   },
-
   // Shared
   {
     date: `${TRIP_YEAR}-02-07`,
     time: "18:30",
-    title: "🍽️ 晚餐：牛たん料理 閣 (電力ビル店)",
-    note: "✅ 已預約 18:30\n必點：たんタタキ、牛舌刺身、トマトサラダ",
+    title: "晚餐：牛たん料理 閣 (電力ビル店)",
+    note: "✅ 已預約 18:30\n必點：たんタタキ、牛舌刺身、トマトサラダ\n地圖：https://maps.app.goo.gl/65BsZEzYPerZHbUPA",
     details:
       "【牛たん料理 閣 (Kaku) - 內行點餐攻略】\n這家店被譽為仙台牛舌界的天花板，以下是你的專屬必點清單：\n\n🥩 推薦必點：\n1. たんタタキ (炙燒牛舌塔塔基) - ¥3,200：閣的招牌作！牛舌外層微炙後切片，搭配大量蔥花與特製醬汁，口感爽脆鮮甜。\n2. 牛舌刺身 - ¥3,200：極致新鮮的牛舌刺身，油脂分布均勻，入口即化，是少數名店才有的極品。\n3. トマトサラダ (番茄沙拉) - ¥900：別看它只是番茄，這是用特製醬汁醃漬的去皮番茄，酸甜度完美比例，是搭配厚切牛舌最強的解膩神器。\n\n📍 地點：電力ビル (Electric Building) B1F\n⚠️ 提醒：預約 18:30 請準時抵達。店內座位較擠但氣氛很好，盡情享受吧！",
     lat: 38.2618,
@@ -460,23 +497,16 @@ export const initialItineraryData = [
   },
   {
     date: `${TRIP_YEAR}-02-07`,
-    time: "17:00",
-    title: "晚餐：牛舌/燒肉",
-    note: "推薦：牛舌「閣」／炭火燒肉仔虎\n參考食記：https://mrsyuny.com/日本東北｜仙台｜仙台必吃！推薦美食！牛舌、小/",
-    details:
-      "仙台是牛舌的發源地，特色是切得厚厚的，口感Q彈脆口。每家店的調味（鹽味、味噌）都略有不同，附餐通常會有麥飯和牛尾湯。",
-  },
-  {
-    date: `${TRIP_YEAR}-02-07`,
-    time: "21:00",
+    time: "",
     title: "宵夜選項：仙台在地關東煮",
-    note: "1. おでん 三吉 (18:00–22:20)\n2. 呼炉凪來 仙台站前店 (16:00–00:00)",
+    note: "1. おでん 三吉 (老店) / 2. 呼炉凪來 (吃到飽)\n地圖與詳情請見內容",
+    group: "B",
     details:
-      "【宵夜口袋名單】\n\n🍢 おでん 三吉 (Oden Miyoshi)\n仙台最負盛名的關東煮老店，創業於昭和年代。其湯頭是使用「陸奧灣干貝」與「利尻昆布」熬煮出的清澈金黃湯頭，鮮甜而不膩。\n✨ 必點：大根、魚干丸子、豆腐揚。\n⏰ 營業時間：18:00–22:20 \n\n🍻 炉端とおでん 呼炉凪來 (Coronagi)\n這是在日本社群媒體上爆紅的連鎖居酒屋！主打「關東煮吃到飽 (おでん食べ放題)」。入座後只要支付約 500 日圓的「お通し」費用，吧檯上的關東煮就可以無限次取用。\n✨ 必點：關東煮吃到飽、爐端燒烤魚、飲酒放題。\n⏰ 營業時間：16:00–00:00 ",
+      "【宵夜口袋名單：溫暖你的仙台之夜】\n\n🍢 おでん 三吉 (Oden Miyoshi)\n📍 地圖：https://maps.app.goo.gl/uaMVKP95hr3g8YCM9\n仙台最具代表性的關東煮老店，創業於昭和 24 年。其湯頭是使用「陸奧灣干貝」與「利尻昆布」熬煮，味道清甜優雅，是體驗仙台傳統氛圍的首選。\n✨ 必點：吸飽湯汁的大根、魚干丸子、豆腐揚。\n⏰ 營業時間：18:00–22:20 (週日、週一可能公休，建議再次確認)\n\n🍻 炉端とおでん 呼炉凪來 (Coronagi)\n📍 地圖：https://maps.app.goo.gl/eLqnni6aA3Sz1yaL8\n這是在日本社群媒體爆紅的居酒屋！主打「關東煮吃到飽」。入座後支付約 500 日圓的「お通し」費，吧檯上的關東煮即可無限次取用，CP 值極高。\n✨ 必點：關東煮吃到飽、爐端燒烤魚、飲酒放題。\n⏰ 營業時間：16:00–00:00 (適合晚歸的宵夜時段)",
   },
   {
     date: `${TRIP_YEAR}-02-07`,
-    time: "20:00",
+    time: "",
     title: "🏨 住宿：Hotel 京阪 仙台",
     note: "📍 地址：宮城県仙台市青葉区中央3丁目3-5\n📞 電話：022-263-0321\n🗺️ 導航：https://www.google.com/maps/search/?api=1&query=Hotel+Keihan+Sendai",
     lat: 38.2601,
@@ -500,7 +530,18 @@ export const initialItineraryData = [
     title: "🛍️ 最後購物與伴手禮掃貨",
     note: "必買：毛豆麻糬 (ずんだ餅)、豆沙屋鯛魚燒\n地點：S-PAL 2F 綜合伴手禮、Anko(豆沙)屋、鯛吉",
     details:
-      "【購物重點】\n1. S-PAL 2F 伴手禮：集合多家名店，可跨店累積退稅。別忘了買「ずんだ餅」與「萩之月」。\n2. 點心補貨：\n   - **Anko(豆沙)屋 站前店**：這家鯛魚燒皮薄餡多，紅豆泥非常綿密，建議買了現吃！地圖：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n或3\n   - **鯛吉 仙台驛前店**：除了經典紅豆，還有黑芝麻或季節限定口味，適合當上機前的點心。地圖：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n或4\n3. Loft 仙台店：文具、美妝最後補貨。\n4. 跨店退稅：請確認 S-PAL 標誌，統一至退稅櫃台辦理（需護照）。",
+      "【最後衝刺：購物重點清單】\n\n" +
+      "1. 🎁 S-PAL 2F 綜合伴手禮區\n" +
+      "集合了所有仙台名產，推薦購買「ずんだ餅(毛豆餅)」和「萩之月」。此區可跨店累積退稅，記得帶護照。\n\n" +
+      "2. 🐟 Anko(豆沙)屋 站前店\n" +
+      "這家鯛魚燒皮薄餡多，紅豆泥非常綿密，強烈建議買了現吃！\n" +
+      "📍 地圖：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n\n" +
+      "3. 🥐 鯛吉 仙台驛前店\n" +
+      "除了經典紅豆，還有黑芝麻或季節限定口味，適合帶上飛機當點心。\n" +
+      "📍 地圖：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n\n" +
+      "4. 💄 Loft 仙台店\n" +
+      "文具、生活雜貨、美妝最後補貨首選，就在車站旁邊。\n\n" +
+      "💡 提醒：S-PAL 退稅櫃台通常在 2 樓或 3 樓，請認明 Tax-Free 標誌。",
     lat: 38.2603,
     lng: 140.8821,
   },

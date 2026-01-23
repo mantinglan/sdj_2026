@@ -735,9 +735,19 @@ const Itinerary = () => {
             className="bg-[#FDFCF8] w-full max-w-sm rounded-[2rem] shadow-2xl border border-white overflow-hidden flex flex-col max-h-[85vh]"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="h-36 bg-sage-100 relative flex items-center justify-center overflow-hidden">
-              <div className="absolute inset-0 bg-sage-500/10"></div>
-              <ImageIcon size={48} className="text-white/40" />
+            <div className="h-48 bg-sage-100 relative flex items-center justify-center overflow-hidden">
+              {viewingEvent.image ? (
+                <img
+                  src={viewingEvent.image}
+                  alt={viewingEvent.title}
+                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                />
+              ) : (
+                <>
+                  <div className="absolute inset-0 bg-sage-500/10"></div>
+                  <ImageIcon size={48} className="text-white/40" />
+                </>
+              )}
 
               <button
                 onClick={() => setIsDetailsModalOpen(false)}
@@ -797,7 +807,7 @@ const Itinerary = () => {
                 </div>
               )}
 
-              {viewingEvent.lat && (
+              {/* {viewingEvent.lat && (
                 <a
                   href={`https://www.google.com/maps/search/?api=1&query=${viewingEvent.lat},${viewingEvent.lng}`}
                   target="_blank"
@@ -806,7 +816,7 @@ const Itinerary = () => {
                 >
                   <MapPin size={18} /> 開啟 Google Maps 導航
                 </a>
-              )}
+              )} */}
 
               {user.role === "admin" && (
                 <button
