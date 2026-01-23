@@ -740,7 +740,7 @@ const Itinerary = () => {
                 <img
                   src={viewingEvent.image}
                   alt={viewingEvent.title}
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                  className="w-full h-full object-cover transition-transform duration-500"
                 />
               ) : (
                 <>

@@ -96,6 +96,7 @@ export const initialItineraryData = [
       "【藏王樹冰 (Ice Monsters)】\n這是東北冬季限定的奇景！來自西伯利亞的寒風夾帶水氣，撞擊到藏王的針葉林，在樹上凝結成冰，層層堆疊後形成形狀各異的「雪怪」。\n\n⚠️ 安全須知：\n1. 樹井危險：樹幹周圍的雪是鬆軟的空洞，掉進去非常難自行爬出，甚至會窒息。請絕對不要為了拍照而踏入無人踩過的雪地！\n2. 極度寒冷：山頂溫度可達 -10 度以下，手機請貼暖暖包保溫。",
     lat: 38.1544,
     lng: 140.4042, // 藏王山頂
+    image: "/images/zao.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-04`,
@@ -106,6 +107,7 @@ export const initialItineraryData = [
       "這是一個較新的休息站，如果山上太冷可以提早下山來這裡取暖、逛農產品。來得及就去，不強求。",
     lat: 38.2125,
     lng: 140.3421,
+    image: "/images/eatpudding.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-04`,
@@ -122,6 +124,7 @@ export const initialItineraryData = [
       "【山形牛專門店 - 山牛】\n使用自家牧場養育的山形牛。預約時間為 12:15，請準時抵達。",
     lat: 38.2515,
     lng: 140.3392,
+    image: "/images/eatmeat.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-04`,
@@ -137,7 +140,8 @@ export const initialItineraryData = [
     details:
       "【寶珠山 立石寺】\n由慈覺大師於西元 860 年開山，是東北代表性的靈場。詩人松尾芭蕉曾在此留下名句：「閑さや 岩にしみ入る 蝉の声」（寂靜啊，蟬聲滲入岩石中）。\n\n⚠️ 冬季登山警告：\n1. 絕對防滑：這 1015 階石梯在冬天會結成「冰溜滑梯」，非常滑！強烈建議在山下商店購買或自備「簡易冰爪 (雪抓)」，套在鞋子上再上山。\n2. 下山更危險：上山容易下山難，重心要放低，手抓扶手。\n3. 景色：雖然辛苦，但爬到「五大堂」看出去的雪景，彷彿水墨畫般美麗，非常值得！",
     lat: 38.3126,
-    lng: 140.4357, // 山寺
+    lng: 140.4357,
+    image: "/images/Yamadera.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-04`,
@@ -168,6 +172,7 @@ export const initialItineraryData = [
       "【神隱少女的舞台？】\n銀山溫泉以大正浪漫風格的建築聞名，木造的溫泉旅館沿著銀山川兩岸林立。傍晚時分，煤氣燈亮起，配上白雪覆蓋的屋頂，夢幻得像走進童話世界。這裡也被認為是動畫《神隱少女》湯屋的原型之一。",
     lat: 38.5705,
     lng: 140.5303, // 銀山溫泉
+    image: "/images/ginsan.jpg",
   },
 
   // --- Day 3: 2/5 (四) ---
@@ -176,6 +181,7 @@ export const initialItineraryData = [
     time: "09:15",
     title: "銀山溫泉退房出發",
     note: "",
+    image: "/images/ginsan-day.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-05`,
@@ -192,6 +198,7 @@ export const initialItineraryData = [
       "【最上川芭蕉航線 - 雪見舟體驗】\n最上川是山形縣的母親河，冬天的「雪見舟」可以坐在暖氣船內欣賞如山水畫般的銀白世界。\n\n📍 乘船資訊：\n1. 上車點（出發地）：古口港（戶澤藩船番所）。\n2. 下車點（目的地）：草薙港（最上川交匯處）。\n3. 船期：每小時約有一班，全程約 50 分鐘。\n\n🍡 船上筆記：\n- 船夫會一邊划船一邊唱著傳統的「最上川舟唄」，氣氛極佳。\n- 冬天船內有暖爐，非常舒適。\n- 推薦在船上享用現做的「暖心糰子」或預約特色便當。\n\n🔗 攻略參考：https://mimigo.tw/mogami-gorge/",
     lat: 38.7538,
     lng: 140.1345,
+    image: "/images/boat.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-05`,
@@ -208,6 +215,7 @@ export const initialItineraryData = [
       "這是一個非常受歡迎的休息站，每年都有數百萬人次造訪。裡面販賣非常多東北限定的伴手禮，還有知名的 ROYCE' 巧克力（因為姊妹市的關係）。",
     lat: 38.7302,
     lng: 140.7516,
+    image: "/images/relax.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-05`,
@@ -264,6 +272,7 @@ export const initialItineraryData = [
       "這裡放養了超過 100 隻狐狸！冬天的狐狸毛最蓬鬆可愛。請注意：雖然牠們看起來很可愛，但仍有野性，請勿隨意觸摸，以免被咬。要在指定的高台區才能進行餵食。",
     lat: 38.0411,
     lng: 140.5313, // 狐狸村
+    image: "/images/fox.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-06`,
@@ -278,6 +287,7 @@ export const initialItineraryData = [
     note: "百名店拉麵\n地圖：https://maps.app.goo.gl/SqkQbTJbBJodrKmAA",
     details:
       "這是一間多次入選日本百名店的拉麵店，以鴨湯鴨肉拉麵聞名。湯頭清爽鮮甜，鴨肉軟嫩。",
+    image: "/images/ramen.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-06`,
@@ -326,6 +336,7 @@ export const initialItineraryData = [
       "【蔵の庄 (Kuranosho) - 仙台在地炉端燒】\n這是一家可以吃到宮城縣在地食材與爐端燒料理的名店。\n\n📍 地址：宮城県仙台市青葉区一番町3-8-14 鈴喜アバンティビル2F\n📞 電話：+81-22-224-3031\n🥩 推薦必點：\n1. 炭火燒烤魚：師傅現場用紅火炭烤，皮脆肉嫩。\n2. 地元野菜串燒：使用仙台當地的時令蔬菜。\n3. 名物厚揚：厚炸豆腐配上大量蔥花。\n\n⚠️ 提醒：預約 19:30，請準時抵達。餐廳位於 2 樓，推嬰兒車可能需注意樓梯或電梯位置。",
     lat: 38.2608,
     lng: 140.8718,
+    image: "/images/dinner.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-06`,
@@ -356,6 +367,7 @@ export const initialItineraryData = [
     title: "搭乘 Loople 仙台 或 計程車",
     note: "前往瑞鳳殿",
     group: "A",
+    image: "/images/loople.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-07`,
@@ -367,6 +379,7 @@ export const initialItineraryData = [
       "桃山文化的華麗建築。冬天的雪景配上紅、金色的建築非常壯觀。入內需購買門票，若有 Loople 巴士一日券可享折扣。",
     lat: 38.2524,
     lng: 140.8655,
+    image: "/images/sendai.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-07`,
@@ -427,6 +440,7 @@ export const initialItineraryData = [
       "【五大堂】松島的地標。進去前會經過木製紅橋，腳下可見海面，很有趣。\n【福浦橋】需付費(200円)的長紅橋，走到底可以到福浦島，是拍照絕佳地點。",
     lat: 38.3697,
     lng: 141.0617,
+    image: "/images/Matsushima.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-07`,
@@ -574,12 +588,14 @@ export const initialItineraryData = [
     time: "16:15",
     title: "🛫 A 組起飛返台",
     note: "預計抵達台灣：19:15",
+    image: "/images/back2tpe.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-08`,
     time: "17:25",
     title: "🛫 B 組起飛返台",
     note: "預計抵達台灣：20:25",
+    image: "/images/back2tpe.jpg",
   },
 ];
 
