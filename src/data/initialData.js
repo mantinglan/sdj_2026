@@ -44,8 +44,8 @@ export const initialItineraryData = [
     note: "停留 70 分鐘 / 超市補給、零食採購\n地圖：https://maps.app.goo.gl/oRnye32CCH42XmHa7",
     details:
       "【天童 AEON Mall】\n這是山形縣內規模極大的購物中心。建議直接鎖定 1F 的超大型食品超市購買往後幾天的飲料、水果、泡麵與消夜。",
-    lat: 38.3377,
-    lng: 140.3662,
+    lat: 38.3435,
+    lng: 140.3638,
   },
   {
     date: `${TRIP_YEAR}-02-03`,
@@ -105,8 +105,8 @@ export const initialItineraryData = [
     note: "視山上寒冷程度決定停留長短\n地圖：https://maps.app.goo.gl/UbnT2Zw3EKzQg1SAA",
     details:
       "這是一個較新的休息站，如果山上太冷可以提早下山來這裡取暖、逛農產品。來得及就去，不強求。",
-    lat: 38.2125,
-    lng: 140.3421,
+    lat: 38.1896,
+    lng: 140.3122,
     image: "/images/eatpudding.jpg",
   },
   {
@@ -139,8 +139,8 @@ export const initialItineraryData = [
     note: "必爬 1015 階梯看展望台！\n入山費用： 500元\n地圖：https://maps.app.goo.gl/YjT2NktpUSgnU6qm9\n攻略 1：https://travistotravel.com/2025/01/09/%E5%B1%B1%E5%BD%A2%E8%87%AA%E7%94%B1%E8%A1%8C%E5%B1%B1%E5%AF%BA%E7%AB%8B%E7%9F%B3%E5%AF%BA/\n攻略 2：https://tohoku.letsgojp.com/archives/21103/\n攻略 3：https://listentolu.com/2025/03/yamadera/",
     details:
       "【寶珠山 立石寺】\n由慈覺大師於西元 860 年開山，是東北代表性的靈場。詩人松尾芭蕉曾在此留下名句：「閑さや 岩にしみ入る 蝉の声」（寂靜啊，蟬聲滲入岩石中）。\n\n⚠️ 冬季登山警告：\n1. 絕對防滑：這 1015 階石梯在冬天會結成「冰溜滑梯」，非常滑！強烈建議在山下商店購買或自備「簡易冰爪 (雪抓)」，套在鞋子上再上山。\n2. 下山更危險：上山容易下山難，重心要放低，手抓扶手。\n3. 景色：雖然辛苦，但爬到「五大堂」看出去的雪景，彷彿水墨畫般美麗，非常值得！",
-    lat: 38.3126,
-    lng: 140.4357,
+    lat: 38.3157,
+    lng: 140.4344,
     image: "/images/Yamadera.jpg",
   },
   {
@@ -196,8 +196,8 @@ export const initialItineraryData = [
     note: "【上車點：古口港（戶澤藩船番所）】\n地圖：https://maps.app.goo.gl/r5qhsh5fkaGv8aw69",
     details:
       "【最上川芭蕉航線 - 雪見舟體驗】\n最上川是山形縣的母親河，冬天的「雪見舟」可以坐在暖氣船內欣賞如山水畫般的銀白世界。\n\n📍 乘船資訊：\n1. 上車點（出發地）：古口港（戶澤藩船番所）。\n2. 下車點（目的地）：草薙港（最上川交匯處）。\n3. 船期：每小時約有一班，全程約 50 分鐘。\n\n🍡 船上筆記：\n- 船夫會一邊划船一邊唱著傳統的「最上川舟唄」，氣氛極佳。\n- 冬天船內有暖爐，非常舒適。\n- 推薦在船上享用現做的「暖心糰子」或預約特色便當。\n\n🔗 攻略參考：https://mimigo.tw/mogami-gorge/",
-    lat: 38.7538,
-    lng: 140.1345,
+    lat: 38.7388,
+    lng: 140.1495,
     image: "/images/boat.jpg",
   },
   {
@@ -213,8 +213,8 @@ export const initialItineraryData = [
     note: "停留30分\n地圖：https://maps.app.goo.gl/7fodWLj7SAkXUqWe8",
     details:
       "這是一個非常受歡迎的休息站，每年都有數百萬人次造訪。裡面販賣非常多東北限定的伴手禮，還有知名的 ROYCE' 巧克力（因為姊妹市的關係）。",
-    lat: 38.7302,
-    lng: 140.7516,
+    lat: 38.7074,
+    lng: 140.8336,
     image: "/images/relax.jpg",
   },
   {
@@ -246,8 +246,8 @@ export const initialItineraryData = [
     note: "🏨 住宿：秋保溫泉 Hotel 瑞鳳\n📍 地址：宮城県仙台市太白区秋保町湯元字除26-1\n📞 電話：0570-550-397\n🗺️ 導航：https://www.google.com/maps/search/?api=1&query=Akiu+Onsen+Hotel+Zuiho",
     details:
       "瑞鳳是一間豪華的溫泉飯店，最有名的是它的自助晚餐，有帝王蟹、和牛、壽司吃到飽！大浴場也非常寬敞，有露天溫泉可以賞雪。",
-    lat: 38.2239,
-    lng: 140.7161, // 秋保溫泉
+    lat: 38.2222,
+    lng: 140.7348, // 秋保溫泉
   },
 
   // --- Day 4: 2/6 (五) ---
@@ -302,8 +302,8 @@ export const initialItineraryData = [
     note: "財運神社、雪中參拜\n地圖：https://maps.app.goo.gl/2uSsmMuXBp3SRJne6",
     details:
       "以祈求財運和生意興隆聞名的神社，主祭神是水神。神社內有許多蛇形石頭，據說用錢包去擦拭可以增加財運。神社內的咖啡廳也非常時尚。",
-    lat: 38.1098,
-    lng: 140.8631,
+    lat: 38.1197,
+    lng: 140.8379,
   },
   {
     date: `${TRIP_YEAR}-02-06`,
@@ -458,8 +458,8 @@ export const initialItineraryData = [
     group: "B",
     details:
       "【松島必吃美食名單】\n\n1. 漁師的海鮮丼 (漁師の海鮮丼)\n📍 地圖：https://maps.google.com/?cid=3495304063340860191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ\n✨ 特色：最浮誇的海鮮丼名店，料多到看不見飯。位子極少，建議 11:00 一開店就衝這家。\n\n2. かきと海鮮料理 旬海 (Shunkai)\n📍 地圖：https://maps.google.com/?cid=4399604388868478897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ\n✨ 特色：不僅有生食，更有專業的炸牡蠣與烤牡蠣定食。用餐環境相對舒適、寬敞。\n\n3. 松島魚市場 (松島さかな市場)\n📍 地圖：https://maps.google.com/?cid=668050928688449145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ\n✨ 特色：一樓有新鮮魚貨、現烤牡蠣與乾貨伴手禮；二樓有快速供餐區（鮪魚丼、牡蠣漢堡）。即使不在這吃正餐，也非常推薦來逛逛掃貨！",
-    lat: 38.371,
-    lng: 141.062,
+    lat: 38.3719,
+    lng: 141.0652,
   },
   {
     date: `${TRIP_YEAR}-02-07`,
@@ -477,8 +477,9 @@ export const initialItineraryData = [
     group: "B",
     details:
       "【鹽竈神社 (Shiogama Jinja)】\n擁有超過1200年歷史，是東北地位最高的神社之一。\n\n✨ 亮點：\n1. 表參道石階：挑戰著名的 202 級階梯（男坂），爬完可展現誠意。\n2. 建築美學：指定為國家重要文化財，呈現豪華的桃山建築風格。\n3. 海景：神社位於山頂，可以俯瞰鹽釜港的船隻進出。",
-    lat: 38.3191,
-    lng: 141.0205,
+    lat: 38.3194,
+    lng: 141.0128,
+    image: "/images/shiogama.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-07`,
@@ -507,7 +508,8 @@ export const initialItineraryData = [
     details:
       "【牛たん料理 閣 (Kaku) - 內行點餐攻略】\n這家店被譽為仙台牛舌界的天花板，以下是你的專屬必點清單：\n\n🥩 推薦必點：\n1. たんタタキ (炙燒牛舌塔塔基) - ¥3,200：閣的招牌作！牛舌外層微炙後切片，搭配大量蔥花與特製醬汁，口感爽脆鮮甜。\n2. 牛舌刺身 - ¥3,200：極致新鮮的牛舌刺身，油脂分布均勻，入口即化，是少數名店才有的極品。\n3. トマトサラダ (番茄沙拉) - ¥900：別看它只是番茄，這是用特製醬汁醃漬的去皮番茄，酸甜度完美比例，是搭配厚切牛舌最強的解膩神器。\n\n📍 地點：電力ビル (Electric Building) B1F\n⚠️ 提醒：預約 18:30 請準時抵達。店內座位較擠但氣氛很好，盡情享受吧！",
     lat: 38.2618,
-    lng: 140.8732,
+    lng: 140.8734,
+    image: "/images/beef-tongue.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-07`,
@@ -556,8 +558,8 @@ export const initialItineraryData = [
       "4. 💄 Loft 仙台店\n" +
       "文具、生活雜貨、美妝最後補貨首選，就在車站旁邊。\n\n" +
       "💡 提醒：S-PAL 退稅櫃台通常在 2 樓或 3 樓，請認明 Tax-Free 標誌。",
-    lat: 38.2603,
-    lng: 140.8821,
+    lat: 38.2616,
+    lng: 140.8786,
   },
   {
     date: `${TRIP_YEAR}-02-08`,
