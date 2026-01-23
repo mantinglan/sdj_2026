@@ -86,17 +86,29 @@ export const initialItineraryData = [
   },
   {
     date: `${TRIP_YEAR}-02-04`,
+    time: "11:00",
+    title: "道の駅 やまがた蔵王 (彈性)",
+    note: "視山上寒冷程度決定停留長短\n地圖：https://maps.app.goo.gl/9uG5oR5f8WvD8YyD8",
+    details:
+      "這是一個較新的休息站，如果山上太冷可以提早下山來這裡取暖、逛農產品。來得及就去，不強求。",
+    lat: 38.2125,
+    lng: 140.3421,
+  },
+  {
+    date: `${TRIP_YEAR}-02-04`,
     time: "11:30",
     title: "返回山形市區",
     note: "回飯店接人",
   },
   {
     date: `${TRIP_YEAR}-02-04`,
-    time: "12:00",
-    title: "午餐：米澤牛",
-    note: "登起波：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n或 燒肉名匠山牛：https://www.google.com/maps/search/?api=1&query=Yakiniku+Meisho+Yamagyu+Yamagata",
+    time: "12:15",
+    title: "🍽️ 午餐：燒肉名匠 山牛 (山形店)",
+    note: "✅ 已預約 12:15\n訂位大名：Lin\n人數：10大1小(10個月)\n地圖：https://www.google.com/maps/search/?api=1&query=Yakiniku+Meisho+Yamagyu+Yamagata",
     details:
-      "米澤牛是日本三大和牛之一（與神戶牛、松阪牛齊名），特點是脂肪熔點低，入口即化。午餐時段通常有比較划算的套餐。",
+      "【山形牛專門店 - 山牛】\n使用自家牧場養育的山形牛。預約時間為 12:15，請準時抵達。",
+    lat: 38.2515,
+    lng: 140.3392,
   },
   {
     date: `${TRIP_YEAR}-02-04`,
@@ -295,8 +307,12 @@ export const initialItineraryData = [
   {
     date: `${TRIP_YEAR}-02-06`,
     time: "19:30",
-    title: "晚餐：仙台市區",
-    note: "牛舌閣：https://www.google.com/maps/search/?api=1&query=Gyutan+Kaku+Sendai\n司：https://www.google.com/maps/search/?api=1&query=Gyutan+Tsukasa+Sendai\n仔虎：https://www.google.com/maps/search/?api=1&query=Yakiniku+Toranoko+Sendai",
+    title: "🍽️ 晚餐：伊達のいろり焼 蔵の庄 一番町本店",
+    note: "✅ 已預約 19:30\n訂位大名：Lin\n人數：10大1小(10個月)\n地圖：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n或7",
+    details:
+      "【蔵の庄 (Kuranosho) - 仙台在地炉端燒】\n這是一家可以吃到宮城縣在地食材與爐端燒料理的名店。\n\n📍 地址：宮城県仙台市青葉区一番町3-8-14 鈴喜アバンティビル2F\n📞 電話：+81-22-224-3031\n🥩 推薦必點：\n1. 炭火燒烤魚：師傅現場用紅火炭烤，皮脆肉嫩。\n2. 地元野菜串燒：使用仙台當地的時令蔬菜。\n3. 名物厚揚：厚炸豆腐配上大量蔥花。\n\n⚠️ 提醒：預約 19:30，請準時抵達。餐廳位於 2 樓，推嬰兒車可能需注意樓梯或電梯位置。",
+    lat: 38.2608,
+    lng: 140.8718,
   },
   {
     date: `${TRIP_YEAR}-02-06`,
@@ -449,6 +465,14 @@ export const initialItineraryData = [
     note: "推薦：牛舌「閣」／炭火燒肉仔虎\n參考食記：https://mrsyuny.com/日本東北｜仙台｜仙台必吃！推薦美食！牛舌、小/",
     details:
       "仙台是牛舌的發源地，特色是切得厚厚的，口感Q彈脆口。每家店的調味（鹽味、味噌）都略有不同，附餐通常會有麥飯和牛尾湯。",
+  },
+  {
+    date: `${TRIP_YEAR}-02-07`,
+    time: "21:00",
+    title: "宵夜選項：仙台在地關東煮",
+    note: "1. おでん 三吉 (18:00–22:20)\n2. 呼炉凪來 仙台站前店 (16:00–00:00)",
+    details:
+      "【宵夜口袋名單】\n\n🍢 おでん 三吉 (Oden Miyoshi)\n仙台最負盛名的關東煮老店，創業於昭和年代。其湯頭是使用「陸奧灣干貝」與「利尻昆布」熬煮出的清澈金黃湯頭，鮮甜而不膩。\n✨ 必點：大根、魚干丸子、豆腐揚。\n⏰ 營業時間：18:00–22:20 \n\n🍻 炉端とおでん 呼炉凪來 (Coronagi)\n這是在日本社群媒體上爆紅的連鎖居酒屋！主打「關東煮吃到飽 (おでん食べ放題)」。入座後只要支付約 500 日圓的「お通し」費用，吧檯上的關東煮就可以無限次取用。\n✨ 必點：關東煮吃到飽、爐端燒烤魚、飲酒放題。\n⏰ 營業時間：16:00–00:00 ",
   },
   {
     date: `${TRIP_YEAR}-02-07`,
