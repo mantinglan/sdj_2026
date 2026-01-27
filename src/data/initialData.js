@@ -349,7 +349,6 @@ export const initialItineraryData = [
 
   // --- Day 5: 2/7 (六) ---
   // Option A
-  // --- Day 5: 2/7 (六) Option A 最佳化跑法 ---
   {
     date: `${TRIP_YEAR}-02-07`,
     time: "08:30",
@@ -377,8 +376,6 @@ export const initialItineraryData = [
     group: "A",
     details:
       "桃山文化的華麗建築。冬天的雪景配上紅、金色的建築非常壯觀。入內需購買門票，若有 Loople 巴士一日券可享折扣。",
-    lat: 38.2524,
-    lng: 140.8655,
     image: "/images/sendai.jpg",
   },
   {
@@ -397,8 +394,6 @@ export const initialItineraryData = [
     group: "A",
     details:
       "搭巴士直達山頂。這裡雖然沒有天守閣，但伊達政宗的騎馬像與俯瞰仙台市的視野是絕對必看的風景。",
-    lat: 38.2526,
-    lng: 140.8561,
   },
   {
     date: `${TRIP_YEAR}-02-07`,
@@ -408,8 +403,6 @@ export const initialItineraryData = [
     group: "A",
     details:
       "從青葉城搭車回來，在「定禪寺通市役所前」下車。走在櫸木大道中間的步道，兩旁有許多雕塑，非常適合在這邊找間咖啡廳（如：Blue Leaf Cafe）休息，準備晚上與 B 組會合。",
-    lat: 38.2657,
-    lng: 140.8669,
   },
 
   // Option B
@@ -458,8 +451,6 @@ export const initialItineraryData = [
     group: "B",
     details:
       "【松島必吃美食名單】\n\n1. 漁師的海鮮丼 (漁師の海鮮丼)\n📍 地圖：https://maps.google.com/?cid=3495304063340860191&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ\n✨ 特色：最浮誇的海鮮丼名店，料多到看不見飯。位子極少，建議 11:00 一開店就衝這家。\n\n2. かきと海鮮料理 旬海 (Shunkai)\n📍 地圖：https://maps.google.com/?cid=4399604388868478897&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ\n✨ 特色：不僅有生食，更有專業的炸牡蠣與烤牡蠣定食。用餐環境相對舒適、寬敞。\n\n3. 松島魚市場 (松島さかな市場)\n📍 地圖：https://maps.google.com/?cid=668050928688449145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ\n✨ 特色：一樓有新鮮魚貨、現烤牡蠣與乾貨伴手禮；二樓有快速供餐區（鮪魚丼、牡蠣漢堡）。即使不在這吃正餐，也非常推薦來逛逛掃貨！",
-    lat: 38.3719,
-    lng: 141.0652,
   },
   {
     date: `${TRIP_YEAR}-02-07`,
@@ -477,8 +468,6 @@ export const initialItineraryData = [
     group: "B",
     details:
       "【鹽竈神社 (Shiogama Jinja)】\n擁有超過1200年歷史，是東北地位最高的神社之一。\n\n✨ 亮點：\n1. 表參道石階：挑戰著名的 202 級階梯（男坂），爬完可展現誠意。\n2. 建築美學：指定為國家重要文化財，呈現豪華的桃山建築風格。\n3. 海景：神社位於山頂，可以俯瞰鹽釜港的船隻進出。",
-    lat: 38.3194,
-    lng: 141.0128,
     image: "/images/shiogama.jpg",
   },
   {
@@ -558,18 +547,35 @@ export const initialItineraryData = [
       "4. 💄 Loft 仙台店\n" +
       "文具、生活雜貨、美妝最後補貨首選，就在車站旁邊。\n\n" +
       "💡 提醒：S-PAL 退稅櫃台通常在 2 樓或 3 樓，請認明 Tax-Free 標誌。",
-    lat: 38.2616,
-    lng: 140.8786,
   },
+  // --- Day 6: 2/8 (日) ---
   {
     date: `${TRIP_YEAR}-02-08`,
     time: "11:45",
     title: "🍽️ 午餐：米澤牛燒肉 仔虎 (仙台站前店)",
-    note: "預約/抵達時間 11:45\n必吃：米澤牛午間套餐\n地圖：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n或2",
+    note: "✅ 預約成功：11:45 (10大1小)\n大名：LIN / 有幼兒椅\n地圖：https://maps.app.goo.gl/ZtDHvvcwKgXfvMZi6\n",
+    group: "B", // 或者是共同行程
     details:
-      "【燒肉仔虎 (Toratora) - 米澤牛專門店】\n既然來到東北，絕對不能錯過三大和牛之一的「米澤牛」。仙台站前店位於 Herb 仙台大樓 8 樓，窗外視野極佳。\n\n🥩 推薦點餐：\n1. 上質米澤牛午間套餐：約 ¥3,000 - ¥5,000 就能吃到極高等級的和牛燒肉，附沙拉、小菜、米飯及湯。\n2. 仔虎招牌冷麵：吃完燒肉後非常解膩的必點單品。\n\n📍 地點：宮城県仙台市青葉区中央1-6-1 Herb SENDAI 8F\n🔗 攻略參考：https://kaikk.tw/toranomon/\n⚠️ 提醒：11:45 請準時抵達。若有預約請出示預約畫面。",
-    lat: 38.2616,
-    lng: 140.8797,
+      "✅【預約成功 / 予約確定】\n" +
+      "--------------------------\n" +
+      "● 店名：米澤牛焼肉 仔虎 仙台駅前店\n" +
+      "● 地址：〒980-0021 宮城県仙台市青葉区中央１丁目６−１ ハーブ仙台 8F\n" +
+      "● 電話：022-223-0151\n" +
+      "● 預約日期：2026/02/08 (日)\n" +
+      "● 預約時間：11:45\n" +
+      "● 人數：11 名 (大人 10 名、子供 1 名)\n" +
+      "● 預約大名：LIN (rin)\n" +
+      "● 聯絡電話：886972885619\n" +
+      "● 備註：幼兒座椅 x 1 (子供用椅子 x 1)\n" +
+      "--------------------------\n\n" +
+      "【餐廳介紹】\n" +
+      "既然來到東北，絕對不能錯過三大和牛之一的「米澤牛」。仙台站前店位於 Herb 仙台大樓 8 樓，窗外視野極佳。\n\n" +
+      "🥩 推薦點餐：\n" +
+      "1. 上質米澤牛午間套餐：約 ¥3,000 - ¥5,000 就能吃到極高等級的和牛燒肉，附沙拉、小菜、米飯及湯。\n" +
+      "2. 仔虎招牌冷麵：吃完燒肉後非常解膩的必點單品。\n\n" +
+      "📍 地點：宮城県仙台市青葉区中央1-6-1 Herb SENDAI 8F\n" +
+      "🔗 攻略參考：https://kaikk.tw/toranomon/\n" +
+      "⚠️ 提醒：11:45 請準時抵達，入店請出示此預約畫面。",
   },
   {
     date: `${TRIP_YEAR}-02-08`,
