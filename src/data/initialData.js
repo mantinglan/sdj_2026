@@ -22,6 +22,7 @@ export const initialItineraryData = [
       "【閖上河岸商店街 (Kawamachi Terrazza Yuriage)】\n位於名取川河口，是一個充滿在地特色與美食的商店街。第一組可以在此品嚐新鮮海產、甜點，享受河岸風景，直到第二組抵達。",
     lat: 38.1738,
     lng: 140.9472,
+    image: "/images/yuriage.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-03`,
@@ -46,6 +47,7 @@ export const initialItineraryData = [
       "【天童 AEON Mall】\n這是山形縣內規模極大的購物中心。建議直接鎖定 1F 的超大型食品超市購買往後幾天的飲料、水果、泡麵與消夜。",
     lat: 38.3435,
     lng: 140.3638,
+    image: "/images/aeon.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-03`,
@@ -156,6 +158,7 @@ export const initialItineraryData = [
     note: "招牌：蕨餅、草莓大福、蕎麥糰子(外帶晚上吃)\n地圖：https://www.google.com/maps/search/?api=1&query=Koshikakean+Yamagata",
     details:
       "【腰掛庵 (Koshikakean)】\n山形縣極具代表性的和菓子名店，經常入選 Tabelog 甜點百名店。店面位於一座古色古香的明治時代「藏」建築（倉庫）內。\n\n🍡 推薦商品：\n1. 蕨餅 (わらび餅)：店內人氣 No.1！口感極其軟嫩綿密，甚至有「入口即化」的驚人美譽，裹上香氣濃郁的黃豆粉，是必買清單。\n2. 草莓大福 (季節限定)：冬季與春季限定！與一般大福不同，腰掛庵是用招牌蕨餅皮包覆大顆多汁草莓與細緻紅豆沙，蕨餅的Q彈與草莓的酸甜完美結合，非常受歡迎。\n3. 蕎麥糰子：帶有淡雅蕎麥香氣的糰子，搭配甜而不膩的紅豆餡或沾醬，口感Q彈扎實。\n⚠️ 注意：由於人氣極高，商品（尤其是草莓大福）常在傍晚前就售罄。",
+    image: "/images/koshikakean.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-04`,
@@ -192,7 +195,7 @@ export const initialItineraryData = [
   {
     date: `${TRIP_YEAR}-02-05`,
     time: "10:50",
-    title: "最上川芭蕉航線 (最上峡芭蕉ライン観光)",
+    title: "✅ 已預約 10:50 最上川芭蕉航線 (最上峡芭蕉ライン観光)",
     note: "【上車點：古口港（戶澤藩船番所）】\n地圖：https://maps.app.goo.gl/r5qhsh5fkaGv8aw69",
     details:
       "【最上川芭蕉航線 - 雪見舟體驗】\n最上川是山形縣的母親河，冬天的「雪見舟」可以坐在暖氣船內欣賞如山水畫般的銀白世界。\n\n📍 乘船資訊：\n1. 上車點（出發地）：古口港（戶澤藩船番所）。\n2. 下車點（目的地）：草薙港（最上川交匯處）。\n3. 船期：每小時約有一班，全程約 50 分鐘。\n\n🍡 船上筆記：\n- 船夫會一邊划船一邊唱著傳統的「最上川舟唄」，氣氛極佳。\n- 冬天船內有暖爐，非常舒適。\n- 推薦在船上享用現做的「暖心糰子」或預約特色便當。\n\n🔗 攻略參考：https://mimigo.tw/mogami-gorge/",
@@ -232,6 +235,7 @@ export const initialItineraryData = [
       "這裡採用高架栽培，採草莓時不需要彎腰，非常輕鬆。農場內還有販賣自製的草莓甜點和果醬。",
     lat: 38.3183,
     lng: 140.9022,
+    image: "/images/strawberry.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-05`,
@@ -248,6 +252,7 @@ export const initialItineraryData = [
       "瑞鳳是一間豪華的溫泉飯店，最有名的是它的自助晚餐，有帝王蟹、和牛、壽司吃到飽！大浴場也非常寬敞，有露天溫泉可以賞雪。",
     lat: 38.2222,
     lng: 140.7348, // 秋保溫泉
+    image: "/images/zuihou.jpg",
   },
 
   // --- Day 4: 2/6 (五) ---
@@ -304,6 +309,7 @@ export const initialItineraryData = [
       "以祈求財運和生意興隆聞名的神社，主祭神是水神。神社內有許多蛇形石頭，據說用錢包去擦拭可以增加財運。神社內的咖啡廳也非常時尚。",
     lat: 38.1197,
     lng: 140.8379,
+    image: "/images/shrine.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-06`,
@@ -385,6 +391,7 @@ export const initialItineraryData = [
     note: "位於車站附近或廣瀨通\n地圖：http://googleusercontent.com/maps.google.com/仔虎",
     group: "A",
     details: "如果晚餐是牛舌，中午推薦吃山形米澤牛燒肉「仔虎」。",
+    image: "/images/lunch.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-07`,
@@ -394,6 +401,7 @@ export const initialItineraryData = [
     group: "A",
     details:
       "搭巴士直達山頂。這裡雖然沒有天守閣，但伊達政宗的騎馬像與俯瞰仙台市的視野是絕對必看的風景。",
+    image: "/images/aobajo.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-07`,
@@ -459,6 +467,7 @@ export const initialItineraryData = [
     note: "天氣好再搭船，或逛松島大街",
     group: "B",
     details: "松島大街有很多現烤仙貝、魚板，可以邊逛邊吃。",
+    image: "/images/ship.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-07`,
@@ -539,13 +548,14 @@ export const initialItineraryData = [
       "集合了所有仙台名產，推薦購買「ずんだ餅(毛豆餅)」和「萩之月」。此區可跨店累積退稅，記得帶護照。\n\n" +
       "2. 🐟 Anko(豆沙)屋 站前店\n" +
       "這家鯛魚燒皮薄餡多，紅豆泥非常綿密，強烈建議買了現吃！\n" +
-      "📍 地圖：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n\n" +
+      "📍 地圖：https://maps.app.goo.gl/udMvn1HjCT3KK5FK6\n\n" +
       "3. 🥐 鯛吉 仙台驛前店\n" +
       "除了經典紅豆，還有黑芝麻或季節限定口味，適合帶上飛機當點心。\n" +
-      "📍 地圖：https://www.google.com/maps/search/?api=1&query=Yonezawa+Beef+Tokiwa+Yamagata\n\n" +
+      "📍 地圖：https://maps.app.goo.gl/dqWxiCqDsL7Z61SD6\n\n" +
       "4. 💄 Loft 仙台店\n" +
       "文具、生活雜貨、美妝最後補貨首選，就在車站旁邊。\n\n" +
       "💡 提醒：S-PAL 退稅櫃台通常在 2 樓或 3 樓，請認明 Tax-Free 標誌。",
+    image: "/images/shopping.jpg",
   },
   // --- Day 6: 2/8 (日) ---
   {
@@ -553,7 +563,7 @@ export const initialItineraryData = [
     time: "11:45",
     title: "🍽️ 午餐：米澤牛燒肉 仔虎 (仙台站前店)",
     note: "✅ 預約成功：11:45 (10大1小)\n大名：LIN / 有幼兒椅\n地圖：https://maps.app.goo.gl/ZtDHvvcwKgXfvMZi6\n",
-    group: "B", // 或者是共同行程
+    image: "/images/bbq.jpg",
     details:
       "✅【預約成功 / 予約確定】\n" +
       "--------------------------\n" +
