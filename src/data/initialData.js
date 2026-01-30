@@ -631,7 +631,7 @@ export const initialItineraryData = [
     time: "16:15",
     title: "🛫 A 組起飛返台",
     note: "預計抵達台灣：19:15",
-    image: "/images/back2tpe.jpg",
+    image: "/images/bye.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-08`,
