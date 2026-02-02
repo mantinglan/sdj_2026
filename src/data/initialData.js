@@ -495,6 +495,10 @@ export const initialItineraryData = [
     time: "16:30",
     title: "返回仙台市區",
     note: "準備與 A 組會合晚餐",
+    details:
+      "【仙台逛街攻略】\n" +
+      "1. 仙台六大商店街走透透：https://blog.udn.com/whiteho/89153928\n" +
+      "2. 仙台購物全攻略：https://tohoku.letsgojp.com/archives/20822/\n\n",
     group: "B",
   },
   // Shared
