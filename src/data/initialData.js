@@ -85,7 +85,7 @@ export const initialItineraryData = [
   // --- Day 2: 2/4 (三) ---
   {
     date: `${TRIP_YEAR}-02-04`,
-    time: "07:20",
+    time: "07:00",
     title: "飯店出發前往藏王",
     note: "早餐：摩斯/松屋",
   },
@@ -93,7 +93,7 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-04`,
     time: "08:30",
     title: "🏔️ 藏王樹冰 (纜車山頂)",
-    note: "❄️ 必備：墨鏡、防雪靴、手套、毛帽、口罩。\n⚠️ 警告：嚴禁靠近樹井，請走步道。",
+    note: "❄️ 必備：墨鏡、防雪靴、手套、毛帽、口罩。\n最晚10:30下山。\n⚠️ 警告：嚴禁靠近樹井，請走步道。\n",
     details:
       "【藏王樹冰 (Ice Monsters)】\n這是東北冬季限定的奇景！來自西伯利亞的寒風夾帶水氣，撞擊到藏王的針葉林，在樹上凝結成冰，層層堆疊後形成形狀各異的「雪怪」。\n\n⚠️ 安全須知：\n1. 樹井危險：樹幹周圍的雪是鬆軟的空洞，掉進去非常難自行爬出，甚至會窒息。請絕對不要為了拍照而踏入無人踩過的雪地！\n2. 極度寒冷：山頂溫度可達 -10 度以下，手機請貼暖暖包保溫。",
     lat: 38.1544,
@@ -115,7 +115,7 @@ export const initialItineraryData = [
     date: `${TRIP_YEAR}-02-04`,
     time: "11:30",
     title: "返回山形市區",
-    note: "回飯店接人",
+    note: "回山形站前大和 ROYNET 酒店接人",
   },
   {
     date: `${TRIP_YEAR}-02-04`,
@@ -262,51 +262,105 @@ export const initialItineraryData = [
     title: "秋保瑞鳳退房出發",
     note: "",
   },
+
+  // --------------------------
+  // Option A：正常計畫 (狐狸村)
+  // --------------------------
   {
     date: `${TRIP_YEAR}-02-06`,
     time: "09:30",
     title: "前往藏王狐狸村",
-    note: "車程1小時",
+    note: "車程約 1 小時",
+    group: "A",
   },
   {
     date: `${TRIP_YEAR}-02-06`,
     time: "10:30",
     title: "藏王狐狸村",
-    note: "停留1.5小時\n冬毛狐狸、餵食體驗\n地圖：https://www.google.com/maps/search/?api=1&query=Zao+Fox+Village",
+    note: "停留 1.5 小時\n冬毛狐狸、餵食體驗\n地圖：https://www.google.com/maps/search/?api=1&query=Zao+Fox+Village",
+    group: "A",
     details:
-      "這裡放養了超過 100 隻狐狸！冬天的狐狸毛最蓬鬆可愛。請注意：雖然牠們看起來很可愛，但仍有野性，請勿隨意觸摸，以免被咬。要在指定的高台區才能進行餵食。",
+      "這裡是世界唯一專門飼養狐狸的動物園，放養超過100隻包括北狐、銀狐等6種品種。冬天的狐狸毛最蓬鬆，體型看起來大三倍，可愛度破表。\n" +
+      "【必看拍照】除了高台餵食區，隱藏拍照位是「山坡上的紅色小鳥居」，能拍出狐狸穿梭在鳥居下的神祕和風感。注意：狐狸具野性，嚴禁觸摸與垂吊裝飾物。",
     lat: 38.0411,
-    lng: 140.5313, // 狐狸村
+    lng: 140.5313,
     image: "/images/fox.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-06`,
     time: "12:00",
     title: "前往 Noodle shop Arakawa",
-    note: "車程1小時",
+    note: "車程約 55 分鐘",
+    group: "A",
+  },
+
+  // --------------------------
+  // Option B：風雪備案 (秋保深度)
+  // --------------------------
+  {
+    date: `${TRIP_YEAR}-02-06`,
+    time: "09:50",
+    title: "磊磊峡 (Rairaikyo)",
+    note: "車程 2min。步行至「覗橋」看心形石穴並拍照。",
+    group: "B",
+    details:
+      "【歷史亮點】由名取川切割而成的奇岩峽谷，長約1公里，名稱由夏目漱石弟子命名。昭和初期即是著名散策地。\n" +
+      "【必看拍照】必看點是覗橋正下方的「心形岩石凹洞」，被認證為戀人聖地。隱藏拍照位則在步道深處的「天斧巖」，能拍出岩石如同被巨斧劈開的壯闊感。",
+    lat: 38.2241,
+    lng: 140.7289,
+    image: "/images/rairaikyo.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-06`,
-    time: "13:00",
-    title: "午餐：Noodle shop Arakawa",
-    note: "百名店拉麵\n地圖：https://maps.app.goo.gl/SqkQbTJbBJodrKmAA",
+    time: "10:23",
+    title: "秋保 Village アグリエの森",
+    note: "車程 3min。採買伴手禮、體驗足湯或吃抹茶霜淇淋。",
+    group: "B",
     details:
-      "這是一間多次入選日本百名店的拉麵店，以鴨湯鴨肉拉麵聞名。湯頭清爽鮮甜，鴨肉軟嫩。",
-    image: "/images/ramen.jpg",
+      "【歷史亮點】秋保地區最具代表性的農產物直銷所，集結宮城縣農家新鮮果物。這裡由仙台茶老店「井ヶ田」經營，是現代化的購物休息站。\n",
+    lat: 38.2256,
+    lng: 140.76,
+  },
+  {
+    date: `${TRIP_YEAR}-02-06`,
+    time: "11:00",
+    title: "[選項A] 秋保大瀑布 / [選項B] Nikka 威士忌工廠",
+    note: "A 車程 20min (11:20抵達)；B 車程 25min (11:25抵達)。停留約 35-40 分鐘。",
+    group: "B",
+    details:
+      "【二選一方案介紹】\n" +
+      "1. **秋保大瀑布**：名列日本三大名瀑，落差55公尺。拍照點在「瀧見台」，可拍到水霧折射彩虹的景象。\n" +
+      "2. **Nikka宮城峽蒸餾所**：1969年由日本威士忌之父竹鶴政孝建造。紅磚建築與森林相映成趣，拍照位在「紅磚酒窖」前，非常有歐洲莊園氛圍。商店限定酒款更是威士忌迷的必搶亮點。",
+    image: "/images/thinking.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-06`,
     time: "12:00",
-    title: "前往 金蛇水神社",
-    note: "車程10分鐘",
+    title: "前往岩沼市 (車程)",
+    note: "從秋保區域開往岩沼市，車程約 55min。",
+    group: "B",
+  },
+
+  // --- 下午會合行程 (A/B 方案皆於 13:00 抵達午餐) ---
+  {
+    date: `${TRIP_YEAR}-02-06`,
+    time: "13:00",
+    title: "午餐：Noodle shop Arakawa",
+    note: "避開 12 點人潮，鴨湯拉麵是此處名物。\n地圖：https://maps.app.goo.gl/SqkQbTJbBJodrKmAA",
+    details:
+      "這是一間多次入選日本拉麵百名店的名店。湯頭採用國產鴨骨與鮮美貝類熬製，清爽卻充滿層次。招牌「鴨湯拉麵」肉質軟嫩，是仙台郊區自駕必吃的職人美味。",
+    lat: 38.12,
+    lng: 140.8707,
+    image: "/images/ramen.jpg",
   },
   {
     date: `${TRIP_YEAR}-02-06`,
     time: "14:10",
     title: "金蛇水神社",
-    note: "財運神社、雪中參拜\n地圖：https://maps.app.goo.gl/2uSsmMuXBp3SRJne6",
+    note: "車程 10min。參觀蛇石、拜財運，並在 Sando Terrace 休息。\n地圖：https://maps.app.goo.gl/2uSsmMuXBp3SRJne6",
     details:
-      "以祈求財運和生意興隆聞名的神社，主祭神是水神。神社內有許多蛇形石頭，據說用錢包去擦拭可以增加財運。神社內的咖啡廳也非常時尚。",
+      "【歷史亮點】擁有千年歷史的「東北最強金運神社」，主祀金蛇大神。經營者與商家必訪，祈求生意興隆與財源廣進。\n" +
+      "【必看亮點】參拜後必摸「蛇紋石」並觸碰錢包提升財運。拍照位在全新落成的 Sando Terrace 休息所，白木風格的現代建築配上蛇形裝飾，極具設計感。",
     lat: 38.1197,
     lng: 140.8379,
     image: "/images/shrine.jpg",
